@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.runtime/
+.DS_Store
+.sites-runtime/
+*.tar.gz
+qa/
+.env
+.env.*
+!.env.example
