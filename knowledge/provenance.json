@@ -1,0 +1,10 @@
+{
+  "source": "https://raw.githubusercontent.com/dangamsoft/cafe-mcp/b0ac07a299343df1e59705d13746cfa995729dc6/ontology/cafe-ontology.ttl",
+  "commit": "b0ac07a299343df1e59705d13746cfa995729dc6",
+  "sha256": "c2f35efec05b876606713fb24a777f831aaa6857abb60820b5b3574befe4389d",
+  "retrieved_at": "2026-10-08T17:14:52.148307+00:00",
+  "attribution": "Dangamsoft CAFE Ontology",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "scope": "Public ontology only. Proprietary rule engine and templates are excluded."
+}

@@ -1,0 +1,2484 @@
+{
+  "reading_id": null,
+  "title": "박지민·박서연·박가람 이름 후보 비교",
+  "summary": "같은 출생 정보를 바탕으로 세 이름 후보의 한자 조합과 소리 구조를 비교했습니다. 지혜와 배움이라는 가족의 바람과 가장 잘 맞는 한자 조합은 박지민의 智敏이며, 서연은 書妍이 소리와 뜻 모두에서 조화가 좋습니다. 가람은 현재 검증된 한자 조합이 없어 추천 보류이며, 이는 이름 소리가 나쁘다는 뜻이 아닙니다.",
+  "tiles": [
+    {
+      "label": "박지민",
+      "text": "세 조합 모두 '지민'이라는 소리를 정확히 표기하며, '지혜와 배움'이라는 사용자 선호와 연결되는 한자를 포함합니다. 자원오행이나 사주 적합도 판단 자료가 없으므로 소리와 의미만을 기준으로 비교하며, 추천 여부는 사용자가 중시하는 의미 방향에 따라 조건부로 판단할 수 있습니다."
+    },
+    {
+      "label": "박서연",
+      "text": "recommendable is true, so recommend"
+    },
+    {
+      "label": "박가람",
+      "text": "passed with warnings: sound: paragraphs count 1 is less than minimum 2"
+    }
+  ],
+  "suggestion": "후보별 뜻과 아쉬운 점을 비교하고 한자 조합을 골라보세요.",
+  "caveat": "한글 소리부터 살펴본 풀이예요. 한자 뜻·획수와 이름의 길흉은 확인하지 않았어요.",
+  "source_ids": [
+    "name-hanja-dictionary",
+    "name-sound",
+    "name-elements",
+    "name-registry",
+    "name-recommendation-rules",
+    "saju-daymaster",
+    "saju-calendar",
+    "saju-structure",
+    "saju-ten-gods",
+    "saju-internal-relations",
+    "saju-yong",
+    "saju-solar-time"
+  ],
+  "report": null,
+  "facts": {
+    "service": "name"
+  },
+  "naming_report": {
+    "version": "fresh-naming-1",
+    "title": "박지민·박서연·박가람 이름 후보 비교",
+    "summary": "같은 출생 정보를 바탕으로 세 이름 후보의 한자 조합과 소리 구조를 비교했습니다. 지혜와 배움이라는 가족의 바람과 가장 잘 맞는 한자 조합은 박지민의 智敏이며, 서연은 書妍이 소리와 뜻 모두에서 조화가 좋습니다. 가람은 현재 검증된 한자 조합이 없어 추천 보류이며, 이는 이름 소리가 나쁘다는 뜻이 아닙니다.",
+    "candidate_reports": [
+      {
+        "id": "name:0",
+        "name": "지민",
+        "display_name": "박지민",
+        "selected_hanja": "",
+        "surname": "박",
+        "surname_hanja": "朴",
+        "sound_structure": [
+          {
+            "syllable": "지",
+            "initial": "ㅈ",
+            "element": "금",
+            "vowel": "ㅣ",
+            "final": "없음"
+          },
+          {
+            "syllable": "민",
+            "initial": "ㅁ",
+            "element": "수",
+            "vowel": "ㅣ",
+            "final": "ㄴ"
+          }
+        ],
+        "sound_elements": [
+          "금",
+          "수"
+        ],
+        "sound_matches_birth_element": [
+          "민"
+        ],
+        "combinations": [
+          {
+            "id": "option:0",
+            "name_hanja": "智敏",
+            "selected": false,
+            "characters": [
+              {
+                "character": "智",
+                "syllable": "지",
+                "position": "이름 1번째 글자",
+                "kind": "name",
+                "meaning": "슬기·지혜",
+                "definition": "wisdom, knowledge, intelligence",
+                "readings": [
+                  "지"
+                ],
+                "themes": [
+                  "지혜와 배움"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              },
+              {
+                "character": "敏",
+                "syllable": "민",
+                "position": "이름 2번째 글자",
+                "kind": "name",
+                "meaning": "민첩함·총명함",
+                "definition": "fast, quick, clever, smart",
+                "readings": [
+                  "민"
+                ],
+                "themes": [
+                  "지혜와 배움"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              }
+            ],
+            "verified": true,
+            "preference_matches": [
+              "지",
+              "민"
+            ]
+          },
+          {
+            "id": "option:1",
+            "name_hanja": "知敏",
+            "selected": false,
+            "characters": [
+              {
+                "character": "知",
+                "syllable": "지",
+                "position": "이름 1번째 글자",
+                "kind": "name",
+                "meaning": "앎·이해",
+                "definition": "know, perceive, comprehend",
+                "readings": [
+                  "지"
+                ],
+                "themes": [
+                  "지혜와 배움"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              },
+              {
+                "character": "敏",
+                "syllable": "민",
+                "position": "이름 2번째 글자",
+                "kind": "name",
+                "meaning": "민첩함·총명함",
+                "definition": "fast, quick, clever, smart",
+                "readings": [
+                  "민"
+                ],
+                "themes": [
+                  "지혜와 배움"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              }
+            ],
+            "verified": true,
+            "preference_matches": [
+              "지",
+              "민"
+            ]
+          },
+          {
+            "id": "option:2",
+            "name_hanja": "志敏",
+            "selected": false,
+            "characters": [
+              {
+                "character": "志",
+                "syllable": "지",
+                "position": "이름 1번째 글자",
+                "kind": "name",
+                "meaning": "뜻·의지",
+                "definition": "purpose, will, determination; annals",
+                "readings": [
+                  "지"
+                ],
+                "themes": [
+                  "성장과 자기 길"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              },
+              {
+                "character": "敏",
+                "syllable": "민",
+                "position": "이름 2번째 글자",
+                "kind": "name",
+                "meaning": "민첩함·총명함",
+                "definition": "fast, quick, clever, smart",
+                "readings": [
+                  "민"
+                ],
+                "themes": [
+                  "지혜와 배움"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              }
+            ],
+            "verified": true,
+            "preference_matches": [
+              "민"
+            ]
+          }
+        ],
+        "recommendable": true,
+        "title": "박지민 이름의 한자 조합 해설",
+        "summary": "박지민이라는 이름에 사용할 수 있는 세 가지 한자 조합을 사전 뜻과 소리 기준으로 비교합니다. 각 조합이 담는 의미의 차이와 선택 시 고려할 점을 구체적으로 설명합니다.",
+        "verdict": "세 조합 모두 '지민'이라는 소리를 정확히 표기하며, '지혜와 배움'이라는 사용자 선호와 연결되는 한자를 포함합니다. 자원오행이나 사주 적합도 판단 자료가 없으므로 소리와 의미만을 기준으로 비교하며, 추천 여부는 사용자가 중시하는 의미 방향에 따라 조건부로 판단할 수 있습니다.",
+        "status": "recommend",
+        "concerns": [
+          "자원오행·획수·81수리 등 사주와 관련된 보조 판단 자료가 제공되지 않아 이름의 에너지적 측면을 고려할 수 없습니다.",
+          "세 조합 모두 소리와 기본 뜻은 확인되었으나, 실제 이름 사용 시의 사회적 인상이나 특정 분야에서의 적합성은 별도로 판단해야 합니다.",
+          ""
+        ],
+        "chapters": [
+          {
+            "topic": "sound",
+            "title": "소리 구조",
+            "paragraphs": [
+              "성을 붙여 부를 때 박지민은 박-지-민 세 음절로 이어집니다. 첫 음절 박은 ㅂ으로 시작해 ㅏ로 이어지고 ㄱ으로 끝납니다. 두 번째 음절 지은 ㅈ으로 시작해 ㅣ로 끝납니다. 세 번째 음절 민은 ㅁ으로 시작해 ㅣ로 이어지고 ㄴ으로 끝납니다. 이렇게 초성-중성-종성 순서가 바뀜 없이 흐릅니다.",
+              "일상에서 이름을 부를 때는 박지민이라고 자연스럽게 연결됩니다. 박은 짧은소리로 끝나 바로 지로 이어지고, 지는 받침이 없어 바로 민으로 넘어갑니다. 민은 ㄴ으로 끝나 다음 말이 있을 때 부드럽게 이어질 수 있습니다. 이렇게 소리가 끊김 없이 흐르면 부를 때 편안함을 느낄 수 있습니다.",
+              "다만 민의 끝소리인 ㄴ은 다음 말이 모음으로 시작할 때 약간 붙어서 발음될 수 있습니다. 예를 들어 박지민아라고 부를 때는 민아 소리가 민아로 들릴 수 있습니다. 이는 이름 자체의 단점이 아니라 한국어 발음의 일반적인 현상입니다. 소리를 기준으로 이름을 판단하기보다는 전체적인 호칭 상황과 실제 사용 빈도를 함께 고려하는 것이 좋습니다."
+            ]
+          }
+        ],
+        "recommendations": [
+          {
+            "id": "option:0",
+            "name_hanja": "智敏",
+            "selected": false,
+            "characters": [
+              {
+                "character": "智",
+                "syllable": "지",
+                "position": "이름 1번째 글자",
+                "kind": "name",
+                "meaning": "슬기·지혜",
+                "definition": "wisdom, knowledge, intelligence",
+                "readings": [
+                  "지"
+                ],
+                "themes": [
+                  "지혜와 배움"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              },
+              {
+                "character": "敏",
+                "syllable": "민",
+                "position": "이름 2번째 글자",
+                "kind": "name",
+                "meaning": "민첩함·총명함",
+                "definition": "fast, quick, clever, smart",
+                "readings": [
+                  "민"
+                ],
+                "themes": [
+                  "지혜와 배움"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              }
+            ],
+            "verified": true,
+            "preference_matches": [
+              "지",
+              "민"
+            ],
+            "name": "지민",
+            "full_hanja": "朴智敏",
+            "reason": "智敏 조합은 '슬기·지혜'와 '민첩함·총명함'이라는 두 글자가 모두 '지혜와 배움'이라는 사용자 선호와 직접 연결됩니다. 지혜를 갖춘 동시에 이를 빠르게 적용하고 실행하는 총명함을 강조하여, 배운 것을 실무에 민첩하게 적용하는 인재상을 떠올리게 합니다. 두 글자가 동일한 테마 내에서 서로를 보완하는 구조로, 선호도와 의미적 일치도가 가장 높습니다.",
+            "story": "智敏 조합은 첫 글자 智가 '슬기·지혜'라는 뜻을 가지고, 두 글자 敏이 '민첩함·총명함'이라는 뜻을 가집니다. 여기서 智는 지식과 이해를 바탕으로 한 깊은 통찰력을, 敏은 그런 통찰을 빠르게 외부에 표현하고 상황에 적용하는 순발력을 의미합니다. 두 글자는 '지혜를 갖춘 동시에 이를 민첩하게 활용하는 사람'이라는 통합된 상을 형성하며, 사용자가 선호하는 '지혜와 배움'이라는 주제 내에서 지혜의 습득과 그 실천적 적용을 모두 포괄합니다.",
+            "explanation": [
+              "첫 글자 智가 '슬기·지혜'라는 뜻을 통해 배움과 이해의 깊이를 상징한다면, 두 글자 敏은 그런 지혜가 정체되지 않고 빠르게 움직이며 문제를 해결하는 능력을 보완합니다. 예를 들어 복잡한 개념을 빠르게 이해(智)하고 그 이해를 바탕으로 실시간으로 대응하거나 적용하는(敏) 상황을 떠올릴 수 있습니다. 이는 단순히 지식을 쌓는 것을 넘어, 배운 것을 상황에 맞게 민첩하게 쓰는 능력을 강조하는 조합으로, 선호도와 의미적 연결이 가장 명확합니다."
+            ],
+            "comparison": "의미적으로 사용자 선호와 가장 직접적으로 연결되는 조합입니다. 지혜와 그 적용의 속도라는 두 측면을 모두 다루어, 배움의 깊이를 중시하면서도 실용적인 결과를 중요하게 생각하는 경우에 적합할 수 있습니다. 다만, 한자 자원오행이나 이름의 종합적 운세를 판단할 자료가 없으므로, 이 조합이 사주에 특히 맞는지는 별도로 확인해야 합니다.",
+            "registry_confirmed": true,
+            "selectable": true
+          },
+          {
+            "id": "option:1",
+            "name_hanja": "知敏",
+            "selected": false,
+            "characters": [
+              {
+                "character": "知",
+                "syllable": "지",
+                "position": "이름 1번째 글자",
+                "kind": "name",
+                "meaning": "앎·이해",
+                "definition": "know, perceive, comprehend",
+                "readings": [
+                  "지"
+                ],
+                "themes": [
+                  "지혜와 배움"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              },
+              {
+                "character": "敏",
+                "syllable": "민",
+                "position": "이름 2번째 글자",
+                "kind": "name",
+                "meaning": "민첩함·총명함",
+                "definition": "fast, quick, clever, smart",
+                "readings": [
+                  "민"
+                ],
+                "themes": [
+                  "지혜와 배움"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              }
+            ],
+            "verified": true,
+            "preference_matches": [
+              "지",
+              "민"
+            ],
+            "name": "지민",
+            "full_hanja": "朴知敏",
+            "reason": "知敏 조합은 첫 글자 知가 '앎·이해'라는 뜻으로, 智보다 더 기본적인 인식 수준을 나타냅니다. 두 글자 敏은 동일하게 '민첩함·총명함'을 의미하므로, 전체적으로는 '빠르게 이해하고 상황을 파악하는 능력'을 강조합니다. 이는 智敏 조합보다 지혜의 깊이가 덜 강조되고, 대신 이해의 속도와 상황 판단력의 민첩성이 더 부각되는 차이를 만듭니다.",
+            "story": "知敏 조합에서 첫 글자 知는 '앎·이해'라는 뜻을 가지며, 이는 정보를 인지하고 기본적인 의미를 파악하는 단계를 가리킵니다. 두 글자 敏은 이전과 동일하게 '민첩함·총명함'을 의미하므로, 이 조합은 '무엇을 빠르게 이해하고 그 이해를 바탕으로 민첩하게 대응하는 능력'을 강조합니다. 여기서 知는 智보다 더 외부로부터의 정보 수용과 기본적 해석에 초점을 맞추며, 깊은 성찰이나 원리 탐구보다는 상황 인지의 속도와 정확성을 의미합니다.",
+            "explanation": [
+              "첫 글자 知가 기본적인 인식과 이해를 뜻한다면, 두 글자 敏은 그런 이해를 바탕으로 빠르게 행동하거나 적용하는 능력을 보완합니다. 예를 들어 새로운 정보를 듣고 즉시 그 뜻을 파악(知)하고, 그에 따라 실시간으로 조치를 취하는(敏) 과정을 설명할 수 있습니다. 이는 智敏 조합의 '깊은 지혜를 민첩하게 적용함'과는 달리, '상황을 빠르게 파악하고 그에 민첩하게 반응함'에 초점을 맞춘 차이를 만듭니다. 즉, 이해의 깊이가 아닌 이해의 속도와 대응의 민첩성이 더 강조되는 조합입니다."
+            ],
+            "comparison": "사용자 선호인 '지혜와 배움'과 연결되지만, 智가 주는 깊은 통찰력보다는 知가 주는 기본적인 이해와 인식에 초점을 맞춥니다. 따라서 배움의 과정 자체보다 배운 것을 바탕으로 빠르게 상황을 판단하고 행동하는 능력을 더 중요하게 생각하는 경우에 고려할 수 있습니다. 다만, 같은 이유로 지혜의 깊이나 철학적 사고를 중시하는 사용자에게는 智敏 조합보다 덜 적합하게 느껴질 수 있습니다.",
+            "registry_confirmed": true,
+            "selectable": true
+          },
+          {
+            "id": "option:2",
+            "name_hanja": "志敏",
+            "selected": false,
+            "characters": [
+              {
+                "character": "志",
+                "syllable": "지",
+                "position": "이름 1번째 글자",
+                "kind": "name",
+                "meaning": "뜻·의지",
+                "definition": "purpose, will, determination; annals",
+                "readings": [
+                  "지"
+                ],
+                "themes": [
+                  "성장과 자기 길"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              },
+              {
+                "character": "敏",
+                "syllable": "민",
+                "position": "이름 2번째 글자",
+                "kind": "name",
+                "meaning": "민첩함·총명함",
+                "definition": "fast, quick, clever, smart",
+                "readings": [
+                  "민"
+                ],
+                "themes": [
+                  "지혜와 배움"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              }
+            ],
+            "verified": true,
+            "preference_matches": [
+              "민"
+            ],
+            "name": "지민",
+            "full_hanja": "朴志敏",
+            "reason": "志敏 조합은 첫 글자 志가 '뜻·의지'라는 뜻을 가지고, 이는 '지혜와 배움'이라는 사용자 선호와 직접적인 의미적 연결이 적습니다. 두 글자 敏은 여전히 '민첩함·총명함'을 의미하므로, 전체적으로는 '목표를 가지고 민첩하게 움직이는 사람'이라는 상을 형성합니다. 이는 지혜나 배움보다는 의지와 그 실천의 속도에 초점을 맞춘 조합으로, 사용자 선호와의 의미적 거리가 있습니다.",
+            "story": "志敏 조합에서 첫 글자 志는 '뜻·의지' 또는 '목표'라는 뜻을 가지며, 이는 내면의 동기나 달성하고자 하는 목표를 가리킵니다. 두 글자 敏은 이전과 동일하게 '민첩함·총명함'을 의미하므로, 이 조합은 '분명한 목표를 가지고 그것을 민첩하게 추구하고 실행하는 사람'이라는 상을 만듭니다. 여기서 志는 지혜나 지식 자체보다는 그런 지식을 향한 동기나, 목표 달성을 위한 의지를 의미하며, 배움의 내용보다는 배움을 향한 자세와 지속성에 초점을 맞춥니다.",
+            "explanation": [
+              "첫 글자 志가 내면의 목표나 의지를 뜻한다면, 두 글자 敏은 그런 목표를 빠르게 향해 나아가는 행동력을 보완합니다. 예를 들어 특정 분야에서 전문가가 되겠다는 목표(志)를 세우고, 그에 따라 필요한 지식을 빠르게 학습하고 적용하는(敏) 과정을 설명할 수 있습니다. 이는 智敏이나 知敏 조합이 지혜나 이해 자체를 강조하는 것과 달리, 지혜를 향한 의지와 그 추구의 속도를 강조하는 차이를 만듭니다. 즉, 배움의 내용이 아닌 배움을 향한 마음가짐과 그 실천의 민첩성이 중심이 되는 조합입니다."
+            ],
+            "comparison": "사용자 선호인 '지혜와 배움'과의 직접적인 의미적 연결이 가장 적은 조합입니다. 지혜나 이해 자체보다는 그런 지식을 향한 의지와 목표 설정, 그리고 그 추구의 속도에 초점을 맞춥니다. 따라서 배움의 과정이나 결과보다 배움을 향한 자세와 지속적인 노력을 더 중요하게 생각하는 경우에 고려할 수 있습니다. 다만, 사용자가 지혜나 이해 자체를 이름에 담고 싶다면, 이 조합은 선호도와의 의미적 거리로 인해 적합하지 않을 수 있습니다.",
+            "registry_confirmed": true,
+            "selectable": true
+          }
+        ],
+        "generation": {
+          "mode": "fresh_model",
+          "previous_reading_used": false,
+          "parts": [
+            {
+              "mode": "fresh_model",
+              "provider": "openrouter",
+              "model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "previous_reading_used": false,
+              "input_sha256": "560b48fd54f461fda64b88377dd3dcb399e2d8a885e3c6cb5026593fa785734e",
+              "calls": [
+                {
+                  "provider": "openrouter",
+                  "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                  "response_format": "json_schema",
+                  "input_tokens": 2321,
+                  "output_tokens": 406,
+                  "done_reason": "stop",
+                  "seconds": 4.48
+                }
+              ],
+              "cache_hit": false,
+              "seconds": 4.49,
+              "actual_models": [
+                "nvidia/nemotron-3-super-120b-a12b:free"
+              ],
+              "vocabulary_normalized": true
+            },
+            {
+              "mode": "fresh_model",
+              "provider": "openrouter",
+              "model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "previous_reading_used": false,
+              "input_sha256": "8b667c63adedd52bf8a53bbcf0d09fadc3b399354153ba9ca027aeb13de1d2c2",
+              "calls": [
+                {
+                  "provider": "openrouter",
+                  "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                  "response_format": "json_schema",
+                  "input_tokens": 3509,
+                  "output_tokens": 1834,
+                  "done_reason": "stop",
+                  "seconds": 18.97
+                }
+              ],
+              "cache_hit": false,
+              "seconds": 18.99,
+              "actual_models": [
+                "nvidia/nemotron-3-super-120b-a12b:free"
+              ],
+              "vocabulary_normalized": true
+            }
+          ],
+          "calls": [
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 2321,
+              "output_tokens": 406,
+              "done_reason": "stop",
+              "seconds": 4.48
+            },
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 3509,
+              "output_tokens": 1834,
+              "done_reason": "stop",
+              "seconds": 18.97
+            }
+          ],
+          "seconds": 23.479999999999997,
+          "actual_models": [
+            "nvidia/nemotron-3-super-120b-a12b:free"
+          ]
+        },
+        "comparison_reason": "박지민은 智敏 조합으로 지혜와 민첩함을 모두 담아 가족의 지혜와 배움이라는 바람과 직접 연결됩니다. 지·민 소리는 첫소리 ㅈ과 ㅁ이 명확하고 끝소리가 없거나 콧소리로 마무리되어 발음이 단정하며, 한자 뜻은 슬기·지혜와 민첩함·총명함으로 실제 사전 정의와 가족의 교육적 기대가 일치합니다. 아쉬운 점은 두 글자가 모두 같은 주제에 집중되어 활동성이나 감정 표현 쪽의 보완이 덜하다는 느낌일 수 있으나, 이는 바람과의 충돌이 아니라 강조점의 차이입니다.",
+        "comparison_concern": "두 글자가 지혜와 배움이라는 동일한 테마에 집중되어 있어, 이름 자체가 감정 표현이나 대인 관계에서의 유연함을 직접적으로 담고 있지는 않습니다. 그러나 이는 가족의 현재 바람과 일치하는 점에서 단점이 아니라 방향의 차이로 볼 수 있습니다.",
+        "recommended_rank": 1,
+        "hanja_status": "ready"
+      },
+      {
+        "id": "name:1",
+        "name": "서연",
+        "display_name": "박서연",
+        "selected_hanja": "",
+        "surname": "박",
+        "surname_hanja": "朴",
+        "sound_structure": [
+          {
+            "syllable": "서",
+            "initial": "ㅅ",
+            "element": "금",
+            "vowel": "ㅓ",
+            "final": "없음"
+          },
+          {
+            "syllable": "연",
+            "initial": "ㅇ",
+            "element": "토",
+            "vowel": "ㅕ",
+            "final": "ㄴ"
+          }
+        ],
+        "sound_elements": [
+          "금",
+          "토"
+        ],
+        "sound_matches_birth_element": [],
+        "combinations": [
+          {
+            "id": "option:0",
+            "name_hanja": "書妍",
+            "selected": false,
+            "characters": [
+              {
+                "character": "書",
+                "syllable": "서",
+                "position": "이름 1번째 글자",
+                "kind": "name",
+                "meaning": "글·기록",
+                "definition": "book, letter, document; writings",
+                "readings": [
+                  "서"
+                ],
+                "themes": [
+                  "지혜와 배움"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              },
+              {
+                "character": "妍",
+                "syllable": "연",
+                "position": "이름 2번째 글자",
+                "kind": "name",
+                "meaning": "아름다움",
+                "definition": "beautiful, handsome; seductive",
+                "readings": [
+                  "연"
+                ],
+                "themes": [
+                  "아름다움과 품격"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              }
+            ],
+            "verified": true,
+            "preference_matches": [
+              "서"
+            ]
+          },
+          {
+            "id": "option:1",
+            "name_hanja": "瑞蓮",
+            "selected": false,
+            "characters": [
+              {
+                "character": "瑞",
+                "syllable": "서",
+                "position": "이름 1번째 글자",
+                "kind": "name",
+                "meaning": "상서로움",
+                "definition": "felicitous omen; auspicious",
+                "readings": [
+                  "서"
+                ],
+                "themes": [
+                  "아름다움과 품격"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              },
+              {
+                "character": "蓮",
+                "syllable": "연",
+                "position": "이름 2번째 글자",
+                "kind": "name",
+                "meaning": "연꽃",
+                "definition": "lotus, water lily; paradise",
+                "readings": [
+                  "련",
+                  "연"
+                ],
+                "themes": [
+                  "성장과 자기 길"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              }
+            ],
+            "verified": true,
+            "preference_matches": []
+          },
+          {
+            "id": "option:2",
+            "name_hanja": "舒妍",
+            "selected": false,
+            "characters": [
+              {
+                "character": "舒",
+                "syllable": "서",
+                "position": "이름 1번째 글자",
+                "kind": "name",
+                "meaning": "폄·편안함",
+                "definition": "open up, unfold, stretch out; comfortable, easy",
+                "readings": [
+                  "서"
+                ],
+                "themes": [
+                  "따뜻함과 배려"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              },
+              {
+                "character": "妍",
+                "syllable": "연",
+                "position": "이름 2번째 글자",
+                "kind": "name",
+                "meaning": "아름다움",
+                "definition": "beautiful, handsome; seductive",
+                "readings": [
+                  "연"
+                ],
+                "themes": [
+                  "아름다움과 품격"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              }
+            ],
+            "verified": true,
+            "preference_matches": []
+          }
+        ],
+        "recommendable": true,
+        "title": "박서연 이름 한자 조합 해설",
+        "summary": "서연이라는 소리에 맞는 세 가지 한자 조합을 사전 뜻과 공식 독음 확인 자료를 바탕으로 각각 풀이했습니다. 각 조합이 담는 의미와 글자 간 연결, 선택 시 고려할 점을 구체적으로 설명했습니다.",
+        "verdict": "recommendable is true, so recommend",
+        "status": "recommend",
+        "concerns": [
+          "서연(書妍): 글과 기록을 통해 아름다움을 표현하고자 하는 바람이 있으나, 실천적 기술이나 행동으로의 연결이 약할 수 있습니다.",
+          "서연(瑞蓮): 상서로운 징조와 연꽃의 성장을 바라는 마음이지만, 구체적인 실천 방향이나 노력이 덜 강조될 수 있습니다.",
+          "서연(舒妍): 편안함과 아름다움을 동시에 추구하나, 두 가치가 충돌하거나 한쪽으로 치우치기 쉬울 수 있습니다.",
+          ""
+        ],
+        "chapters": [
+          {
+            "topic": "sound",
+            "title": "박서연이라는 이름의 소리 구조",
+            "paragraphs": [
+              "박서연이라는 이름을 부를 때는 성을 붙인 세 음절이 차례대로 이어집니다. 첫 음절인 박은 초성 ㅂ, 중성 ㅏ, 종성 ㄱ으로 구성된 닫힌 소리이며, 두 번째 음절 서는 초성 ㅅ, 중성 ㅓ, 종성이 없는 열린 소리입니다. 마지막 음절 연은 초성이 없으며 중성 ㅕ와 종성 ㄴ으로 끝납니다. 이렇게 소리 구조를 살피면 이름 전체에서 닫힌 소리와 열린 소리가 교차하며 흐름을 만든다는 사실을 확인할 수 있습니다.",
+              "실제 생활에서는 가족이나 친한 사람이 박서연을 부를 때, 박-서-연이라는 세 음절을 자연스럽게 연결해 부릅니다. 예를 들어 식사 시간에 \"박서연아, 밥 먹자\"라고 부를 때는 박과 서 사이에서는 종성 ㄱ이 다음 초성 ㅅ과 만나 가볍게 연결되며, 서와 연 사이에서는 종성이 없는 서 다음에 바로 중성 ㅕ가 이어져 흐름이 끊기지 않습니다. 이처럼 소리의 연결 방식은 이름 전체의 발음 리듬에 영향을 주며, 일상 대화에서 이름 자체가 주는 소리적 특징을 만들어냅니다.",
+              "이 이름을 부를 때 주의할 점은 종성이 있는 음절과 없는 음절이 번갈아 나타난다는 것입니다. 박과 연에는 종성이 있지만 서에는 종성이 없기 때문에, 발음할 때 박에서 서로 넘어갈 때는 소리가 막혔다가 트이는 느낌을 주고, 서에서 연으로 넘어갈 때는 막힘 없이 바로 모음으로 이어집니다. 이런 구조는 이름의 소리적 흐름을 만드는 요인이 되며, 발음의 편안함이나 명확함은 말하는 사람의 습관과 청취 환경에 따라 다르게 느껴질 수 있음을 기억해야 합니다."
+            ]
+          }
+        ],
+        "recommendations": [
+          {
+            "id": "option:0",
+            "name_hanja": "書妍",
+            "selected": false,
+            "characters": [
+              {
+                "character": "書",
+                "syllable": "서",
+                "position": "이름 1번째 글자",
+                "kind": "name",
+                "meaning": "글·기록",
+                "definition": "book, letter, document; writings",
+                "readings": [
+                  "서"
+                ],
+                "themes": [
+                  "지혜와 배움"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              },
+              {
+                "character": "妍",
+                "syllable": "연",
+                "position": "이름 2번째 글자",
+                "kind": "name",
+                "meaning": "아름다움",
+                "definition": "beautiful, handsome; seductive",
+                "readings": [
+                  "연"
+                ],
+                "themes": [
+                  "아름다움과 품격"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              }
+            ],
+            "verified": true,
+            "preference_matches": [
+              "서"
+            ],
+            "name": "서연",
+            "full_hanja": "朴書妍",
+            "reason": "서연(書妍): 글자별 뜻과 조합의 연결을 설명했습니다.",
+            "story": "첫 글자 書는 ‘글·기록’이라는 뜻을 가집니다. 책, 편지, 문서처럼 생각을 남기고 전달하는 행위를 상징하며, 지혜를 쌓고 배움을 기록하는 활동과 연결됩니다. 두 번째 글자 妍은 ‘아름다움’이라는 뜻으로, 외모뿐 아니라 태도나 표현 방식의 고운 모습을 의미합니다. 이 두 글자는 ‘아름다움을 글에 담다’라는 조합으로 읽히며, 배움과 표현을 통해 고운 품격을 갖추고자 하는 바람을 보여줍니다.",
+            "explanation": [
+              "이 조합은 지혜와 배움이라는 선호와 직접 연결됩니다. 書는 지식의 기반이 되고, 妍은 그 표현 방식의 품격을 높입니다. 다만 書가 내면의 축적에 초점을 둔 반면, 妍은 외면의 Erscheinung에 치우칠 수 있어, 배움이 단순히 보이는 아름다움으로 끝날 위험이 있습니다. 따라서 글과 기록을 통해 inner beauty를 키우고자 하는 노력이 필요함을 시사합니다."
+            ],
+            "comparison": "서연(書妍): 글과 기록을 통해 아름다움을 표현하고자 하는 바람이 있으나, 실천적 기술이나 행동으로의 연결이 약할 수 있습니다.",
+            "registry_confirmed": true,
+            "selectable": true
+          },
+          {
+            "id": "option:1",
+            "name_hanja": "瑞蓮",
+            "selected": false,
+            "characters": [
+              {
+                "character": "瑞",
+                "syllable": "서",
+                "position": "이름 1번째 글자",
+                "kind": "name",
+                "meaning": "상서로움",
+                "definition": "felicitous omen; auspicious",
+                "readings": [
+                  "서"
+                ],
+                "themes": [
+                  "아름다움과 품격"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              },
+              {
+                "character": "蓮",
+                "syllable": "연",
+                "position": "이름 2번째 글자",
+                "kind": "name",
+                "meaning": "연꽃",
+                "definition": "lotus, water lily; paradise",
+                "readings": [
+                  "련",
+                  "연"
+                ],
+                "themes": [
+                  "성장과 자기 길"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              }
+            ],
+            "verified": true,
+            "preference_matches": [],
+            "name": "서연",
+            "full_hanja": "朴瑞蓮",
+            "reason": "서연(瑞蓮): 글자별 뜻과 조합의 연결을 설명했습니다.",
+            "story": "첫 글자 瑞는 ‘상서로움’이라는 뜻을 가집니다. 좋은 징조, 길한 현상, 복이 들어오는 조짐을 의미하며, 삶에 긍정적인 흐름을 바라는 마음을 담습니다. 두 번째 글자 蓮은 ‘연꽃’이라는 뜻으로, 진흙 속에서 피어나는 꽃을 상징하며, 어려운 환경 속에서도 성장을 이어가고 깨끗함을 유지하려는 바람을 나타냅니다. 이 두 글자는 ‘길한 성장’이라는 조합으로 읽히며, 복이 있는 자리에서 바르게 자라나고자 하는 기대를 보여줍니다.",
+            "explanation": [
+              "이 조합은 아름다움과 품격이라는 선호와 연결됩니다. 瑞는 외부에서 들어오는 좋은 조건을, 蓮은 내면의 성장 과정을 상징합니다. 다만 瑞가 지나치게 외부 조건에 의존하면 주체적인 노력이 약해질 수 있고, 蓮의 성장이 정체될 경우 상서로움에 대한 기대가 무색해질 수 있습니다. 따라서 좋은 조건을 맞이했을 때 내면의 성장을 게을리하지 않는 자세가 중요함을 시사합니다."
+            ],
+            "comparison": "서연(瑞蓮): 상서로운 징조와 연꽃의 성장을 바라는 마음이지만, 구체적인 실천 방향이나 노력이 덜 강조될 수 있습니다.",
+            "registry_confirmed": true,
+            "selectable": true
+          },
+          {
+            "id": "option:2",
+            "name_hanja": "舒妍",
+            "selected": false,
+            "characters": [
+              {
+                "character": "舒",
+                "syllable": "서",
+                "position": "이름 1번째 글자",
+                "kind": "name",
+                "meaning": "폄·편안함",
+                "definition": "open up, unfold, stretch out; comfortable, easy",
+                "readings": [
+                  "서"
+                ],
+                "themes": [
+                  "따뜻함과 배려"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              },
+              {
+                "character": "妍",
+                "syllable": "연",
+                "position": "이름 2번째 글자",
+                "kind": "name",
+                "meaning": "아름다움",
+                "definition": "beautiful, handsome; seductive",
+                "readings": [
+                  "연"
+                ],
+                "themes": [
+                  "아름다움과 품격"
+                ],
+                "registry": {
+                  "status": "listed",
+                  "label": "이 독음으로 공식 조회 확인",
+                  "checked_at": "2026-10-09",
+                  "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010"
+                }
+              }
+            ],
+            "verified": true,
+            "preference_matches": [],
+            "name": "서연",
+            "full_hanja": "朴舒妍",
+            "reason": "서연(舒妍): 글자별 뜻과 조합의 연결을 설명했습니다.",
+            "story": "첫 글자 舒는 ‘폄·편안함’이라는 뜻을 가집니다. 펴지다, 풀리다, 편안해지다라는 의미로, 긴장이 풀리고 마음이 느슨해지는 상태를 상징합니다. 두 번째 글자 妍은 ‘아름다움’이라는 뜻으로, 외모나 태도의 고운 모습을 나타냅니다. 이 두 글자는 ‘편안한 아름다움’이라는 조합으로 읽히며, 억지스럽지 않고 자연스럽게 빛나는 모습을 바라는 마음을 보여줍니다.",
+            "explanation": [
+              "이 조합은 따뜻함과 배려라는 선호와 연결됩니다. 舒는 자신과 타인에게 여유를 주는 태도를, 妍은 그 태도가 미치는 좋은 영향을 상징합니다. 다만 舒가 지나치면 목표에 대한 긴장감이 사라지고, 妍에만 집중하면 외면적인 아름다움에 머무를 위험이 있습니다. 따라서 편안함을 기반으로 하면서도 내면과 외면의 조화를 유지하려는 노력이 필요함을 시사합니다."
+            ],
+            "comparison": "서연(舒妍): 편안함과 아름다움을 동시에 추구하나, 두 가치가 충돌하거나 한쪽으로 치우치기 쉬울 수 있습니다.",
+            "registry_confirmed": true,
+            "selectable": true
+          }
+        ],
+        "generation": {
+          "mode": "fresh_model",
+          "previous_reading_used": false,
+          "parts": [
+            {
+              "mode": "fresh_model",
+              "provider": "openrouter",
+              "model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "previous_reading_used": false,
+              "input_sha256": "4fcd772866b2162ce68c16e4267a7f6dcecfb0a8bb736cb03d917669cfed8bc4",
+              "calls": [
+                {
+                  "provider": "openrouter",
+                  "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                  "response_format": "json_schema",
+                  "input_tokens": 2321,
+                  "output_tokens": 546,
+                  "done_reason": "stop",
+                  "seconds": 10.84
+                }
+              ],
+              "cache_hit": false,
+              "seconds": 10.85,
+              "actual_models": [
+                "nvidia/nemotron-3-super-120b-a12b:free"
+              ],
+              "vocabulary_normalized": true
+            },
+            {
+              "mode": "fresh_model",
+              "provider": "openrouter",
+              "model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "previous_reading_used": false,
+              "input_sha256": "408540961e6979c42d89747c0ffe75c909eab0dcd51d9ea79456252957add465",
+              "calls": [
+                {
+                  "provider": "openrouter",
+                  "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                  "response_format": "json_schema",
+                  "input_tokens": 3512,
+                  "output_tokens": 1575,
+                  "done_reason": "stop",
+                  "seconds": 15.51
+                },
+                {
+                  "provider": "openrouter",
+                  "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                  "response_format": "json_schema",
+                  "input_tokens": 3585,
+                  "output_tokens": 1177,
+                  "done_reason": "stop",
+                  "seconds": 11.32
+                }
+              ],
+              "cache_hit": false,
+              "seconds": 26.89,
+              "actual_models": [
+                "nvidia/nemotron-3-super-120b-a12b:free"
+              ],
+              "vocabulary_normalized": true
+            }
+          ],
+          "calls": [
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 2321,
+              "output_tokens": 546,
+              "done_reason": "stop",
+              "seconds": 10.84
+            },
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 3512,
+              "output_tokens": 1575,
+              "done_reason": "stop",
+              "seconds": 15.51
+            },
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 3585,
+              "output_tokens": 1177,
+              "done_reason": "stop",
+              "seconds": 11.32
+            }
+          ],
+          "seconds": 37.74,
+          "actual_models": [
+            "nvidia/nemotron-3-super-120b-a12b:free"
+          ]
+        },
+        "comparison_reason": "박서연은 書妍 조합으로 글·기록과 아름다움을 결합해 지혜와 배움이라는 바람과 연결됩니다. 서·연 소리는 첫소리 ㅅ과 ㅇ이 부드럽게 이어지고 끝소리가 없거나 콧소리로 마무리되어 전체적인 발음이 유연하며, 한자 뜻은 글·기록과 아름다움으로 사전 정의가 명확하고, 가족이 지식을 바탕으로 품격 있는 성장을 바라는 마음과 잘 맞습니다. 아쉬운 점은 글자 뜻이 기록과 미적 감각에 치우쳐 있어 실천적 문제 해결이나 빠른 판단력과는 거리가 있을 수 있으나, 이는 바람과의 충돌이 아니라 다른 측면의 강조입니다.",
+        "comparison_concern": "글과 아름다움이라는 두 뜻이 지혜와 배움이라는 바람과 연결되기는 하지만, 직접적인 실천력이나 빠른 판단력과는 거리가 있을 수 있습니다. 그러나 이는 가족이 현재 강조하는 교육적·품격적 성장과 방향이 다를 뿐, 이름 자체가 부적절하다는 의미는 아닙니다.",
+        "recommended_rank": 2,
+        "hanja_status": "ready"
+      },
+      {
+        "id": "name:2",
+        "name": "가람",
+        "display_name": "박가람",
+        "selected_hanja": "",
+        "surname": "박",
+        "surname_hanja": "朴",
+        "sound_structure": [
+          {
+            "syllable": "가",
+            "initial": "ㄱ",
+            "element": "목",
+            "vowel": "ㅏ",
+            "final": "없음"
+          },
+          {
+            "syllable": "람",
+            "initial": "ㄹ",
+            "element": "화",
+            "vowel": "ㅏ",
+            "final": "ㅁ"
+          }
+        ],
+        "sound_elements": [
+          "목",
+          "화"
+        ],
+        "sound_matches_birth_element": [],
+        "combinations": [],
+        "recommendable": false,
+        "title": "소리 구조",
+        "summary": "박가람이라는 이름은 초성·중성·종성으로 이루어진 두 음절이 성을 붙여 실제 호칭에서 어떻게 이어지는지 살피며, 소리의 흐름과 끝소리가 주는 느낌을 객관적으로 설명합니다.",
+        "verdict": "passed with warnings: sound: paragraphs count 1 is less than minimum 2",
+        "status": "needs_verification",
+        "concerns": [
+          "sound: paragraphs count 1 is less than minimum 2"
+        ],
+        "chapters": [
+          {
+            "topic": "sound",
+            "title": "소리 구조",
+            "paragraphs": [
+              "성씨인 박과 이름을 붙여 부를 때 ‘박가람’은 세 음절로 이어집니다. 첫 음절 ‘박’은 초성 ㅂ, 중성 ㅏ, 종성 ㄱ으로 끝납니다. 이어지는 이름 첫 음절 ‘가’는 초성 ㄱ, 중성 ㅏ, 종성이 없습니다. 따라서 ‘박가’에서 종성 ㄱ과 다음 초성 ㄱ이 만나 겹받침처럼 발음될 수 있으며, 실제 호칭에서는 ‘박가’ 부분이 약간 강조되어 들릴 수 있습니다. 두 번째 음절 ‘람’은 초성 ㄹ, 중성 ㅏ, 종성 ㅁ로 끝납니다. 이름 전체에서 종성 ㄱ과 ㅁ이 교차하며 소리가 막히지 않고 흐르는 구조를 만듭니다."
+            ]
+          }
+        ],
+        "recommendations": [],
+        "generation": {
+          "mode": "fresh_model",
+          "previous_reading_used": false,
+          "parts": [
+            {
+              "mode": "fresh_model",
+              "provider": "openrouter",
+              "model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "previous_reading_used": false,
+              "input_sha256": "ab4c53b36e4a615f2e161037640909968c0565b699ae763061921244bf429bf6",
+              "calls": [
+                {
+                  "provider": "openrouter",
+                  "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                  "response_format": "json_schema",
+                  "input_tokens": 2321,
+                  "output_tokens": 343,
+                  "done_reason": "stop",
+                  "seconds": 6.44
+                }
+              ],
+              "cache_hit": false,
+              "seconds": 6.45,
+              "actual_models": [
+                "nvidia/nemotron-3-super-120b-a12b:free"
+              ],
+              "vocabulary_normalized": true
+            },
+            {
+              "calls": [],
+              "seconds": 0,
+              "actual_models": [],
+              "previous_reading_used": false
+            }
+          ],
+          "calls": [
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 2321,
+              "output_tokens": 343,
+              "done_reason": "stop",
+              "seconds": 6.44
+            }
+          ],
+          "seconds": 6.45,
+          "actual_models": [
+            "nvidia/nemotron-3-super-120b-a12b:free"
+          ]
+        },
+        "comparison_reason": "박가람은 현재 입력에 검증된 한자 조합이 없어 소리 구조만으로 비교할 수 있습니다. 가·람 소리는 첫소리 ㄱ과 ㄹ이 이어지고 끝소리가 ㅁ으로 마무리되어 발음이 부드럽고 풍부한 인상을 줍니다. 그러나 한자 의미와 공식 독음이 확인되지 않아 가족의 지혜와 배움이라는 바람과의 연결점을 구체적으로 설명할 수 없습니다. 이는 이름 자체가 나쁘다는 증거가 아니며, 단지 현재 제공된 자료 내에서 의미적 검토가 불가능함을 의미합니다.",
+        "comparison_concern": "검증된 한자 조합이 없으므로 이름의 뜻과 가족의 바람 사이의 연관성을 사전 정의에 기반해 설명할 수 없습니다. 이는 이름 소리가 나쁘다는 뜻이 아니며, 향후 공식 한자 조회가 이루어지면 재검토가 가능합니다.",
+        "recommended_rank": null,
+        "hanja_status": "needs_verification"
+      }
+    ],
+    "comparison": {
+      "title": "박지민·박서연·박가람 이름 후보 비교",
+      "summary": "같은 출생 정보를 바탕으로 세 이름 후보의 한자 조합과 소리 구조를 비교했습니다. 지혜와 배움이라는 가족의 바람과 가장 잘 맞는 한자 조합은 박지민의 智敏이며, 서연은 書妍이 소리와 뜻 모두에서 조화가 좋습니다. 가람은 현재 검증된 한자 조합이 없어 추천 보류이며, 이는 이름 소리가 나쁘다는 뜻이 아닙니다.",
+      "recommended_ids": [
+        "name:0",
+        "name:1"
+      ],
+      "choices": [
+        {
+          "id": "name:0",
+          "reason": "박지민은 智敏 조합으로 지혜와 민첩함을 모두 담아 가족의 지혜와 배움이라는 바람과 직접 연결됩니다. 지·민 소리는 첫소리 ㅈ과 ㅁ이 명확하고 끝소리가 없거나 콧소리로 마무리되어 발음이 단정하며, 한자 뜻은 슬기·지혜와 민첩함·총명함으로 실제 사전 정의와 가족의 교육적 기대가 일치합니다. 아쉬운 점은 두 글자가 모두 같은 주제에 집중되어 활동성이나 감정 표현 쪽의 보완이 덜하다는 느낌일 수 있으나, 이는 바람과의 충돌이 아니라 강조점의 차이입니다.",
+          "concern": "두 글자가 지혜와 배움이라는 동일한 테마에 집중되어 있어, 이름 자체가 감정 표현이나 대인 관계에서의 유연함을 직접적으로 담고 있지는 않습니다. 그러나 이는 가족의 현재 바람과 일치하는 점에서 단점이 아니라 방향의 차이로 볼 수 있습니다."
+        },
+        {
+          "id": "name:1",
+          "reason": "박서연은 書妍 조합으로 글·기록과 아름다움을 결합해 지혜와 배움이라는 바람과 연결됩니다. 서·연 소리는 첫소리 ㅅ과 ㅇ이 부드럽게 이어지고 끝소리가 없거나 콧소리로 마무리되어 전체적인 발음이 유연하며, 한자 뜻은 글·기록과 아름다움으로 사전 정의가 명확하고, 가족이 지식을 바탕으로 품격 있는 성장을 바라는 마음과 잘 맞습니다. 아쉬운 점은 글자 뜻이 기록과 미적 감각에 치우쳐 있어 실천적 문제 해결이나 빠른 판단력과는 거리가 있을 수 있으나, 이는 바람과의 충돌이 아니라 다른 측면의 강조입니다.",
+          "concern": "글과 아름다움이라는 두 뜻이 지혜와 배움이라는 바람과 연결되기는 하지만, 직접적인 실천력이나 빠른 판단력과는 거리가 있을 수 있습니다. 그러나 이는 가족이 현재 강조하는 교육적·품격적 성장과 방향이 다를 뿐, 이름 자체가 부적절하다는 의미는 아닙니다."
+        },
+        {
+          "id": "name:2",
+          "reason": "박가람은 현재 입력에 검증된 한자 조합이 없어 소리 구조만으로 비교할 수 있습니다. 가·람 소리는 첫소리 ㄱ과 ㄹ이 이어지고 끝소리가 ㅁ으로 마무리되어 발음이 부드럽고 풍부한 인상을 줍니다. 그러나 한자 의미와 공식 독음이 확인되지 않아 가족의 지혜와 배움이라는 바람과의 연결점을 구체적으로 설명할 수 없습니다. 이는 이름 자체가 나쁘다는 증거가 아니며, 단지 현재 제공된 자료 내에서 의미적 검토가 불가능함을 의미합니다.",
+          "concern": "검증된 한자 조합이 없으므로 이름의 뜻과 가족의 바람 사이의 연관성을 사전 정의에 기반해 설명할 수 없습니다. 이는 이름 소리가 나쁘다는 뜻이 아니며, 향후 공식 한자 조회가 이루어지면 재검토가 가능합니다."
+        }
+      ],
+      "paragraphs": [
+        "세 이름 후보를 비교할 때 먼저 한자 조합이 확인된 박지민과 박서연을 살펴보았습니다. 박지민의 智敏은 지혜와 민첩함을 직설적으로 담아 가족의 지혜와 배움이라는 바람과 가장 직접적으로 연결되며, 소리 구조도 첫소리의 명확함과 끝소리의 콧소리 마무리로 단정하고 집중적인 인상을 줍니다. 박서연의 書妍은 글과 아름다움을 결합해 같은 바람을 우회적으로 표현하며, 소리 구조는 첫소리의 부드러운 연결과 끝소리의 유연한 마무리로 전체적인 인상이 부드럽고 풍부합니다. 두 이름 모두 한자 뜻이 사전 정의와 일치하고, 가족의 교육적 기대를 이름에 담는 방식에서 차이가 있을 뿐 우열을 가릴 명확한 근거는 없습니다.",
+        "박가람은 현재 입력에 검증된 한자 조합이 없어 소리 구조만으로 비교할 수 있습니다. 가·람 소리는 첫소리 ㄱ과 ㄹ이 이어지고 끝소리가 ㅁ로 마무리되어 발음이 부드럽고 풍부한 인상을 주지만, 한자 의미와 공식 독음이 확인되지 않아 가족의 지혜와 배움이라는 바람과의 연결점을 구체적으로 설명할 수 없습니다. 이는 이름 자체가 나쁘다는 증거가 아니며, 단지 현재 제공된 자료 내에서 의미적 검토가 불가능함을 의미합니다. 향후 공식 한자 조회가 이루어지면 가람에도 적절한 조합을 찾을 수 있을 것입니다.",
+        "따라서 추천 순위는 한자 조합이 확인되고 가족의 바람과 연결점을 설명할 수 있는 박지민과 박서연을 먼저 두는 것이 적절합니다. 지혜와 배움이라는 바람을 직설적으로 강조하고 싶다면 박지민이, 글과 아름다움을 통해 우회적으로 표현하고 싶다면 박서연이 좋은 선택이 될 수 있습니다. 박가람은 한자 조합이 확인되는 대로 재검토 대상에 포함시켜야 하며, 현재 단계에서는 추천 보류가 타당한 결정입니다."
+      ]
+    },
+    "birth": {
+      "profile": {
+        "name": "박지민",
+        "birth_date": "2026-05-15",
+        "birth_time": "10:30",
+        "city": "서울 · 대표지점",
+        "calendar": "양력"
+      },
+      "input_basis": {
+        "calendar": "양력",
+        "timezone": "한국 표준시 UTC+9",
+        "longitude": 126.9784,
+        "entered_time": "10:30",
+        "corrected_time": "09:57:54",
+        "corrected_date": "2026-05-15",
+        "offset_minutes": -32.0864,
+        "equation_of_time_applied": false,
+        "day_boundary": "야자시 분리"
+      },
+      "pillars": [
+        {
+          "position": "year",
+          "label": "년주",
+          "known": true,
+          "ganji": "丙午",
+          "reading": "병오",
+          "stem": {
+            "hanja": "丙",
+            "hangul": "병",
+            "element": "화",
+            "polarity": "양",
+            "symbol": "태양",
+            "ten_god": "정인"
+          },
+          "branch": {
+            "hanja": "午",
+            "hangul": "오",
+            "element": "화",
+            "ten_god": "편인"
+          },
+          "hidden_stems": [
+            {
+              "hanja": "丙",
+              "hangul": "병",
+              "role": "여기",
+              "element": "화"
+            },
+            {
+              "hanja": "己",
+              "hangul": "기",
+              "role": "중기",
+              "element": "토"
+            },
+            {
+              "hanja": "丁",
+              "hangul": "정",
+              "role": "본기",
+              "element": "화"
+            }
+          ],
+          "stage": "임관"
+        },
+        {
+          "position": "month",
+          "label": "월주",
+          "known": true,
+          "ganji": "癸巳",
+          "reading": "계사",
+          "stem": {
+            "hanja": "癸",
+            "hangul": "계",
+            "element": "수",
+            "polarity": "음",
+            "symbol": "비·이슬",
+            "ten_god": "편재"
+          },
+          "branch": {
+            "hanja": "巳",
+            "hangul": "사",
+            "element": "화",
+            "ten_god": "정인"
+          },
+          "hidden_stems": [
+            {
+              "hanja": "戊",
+              "hangul": "무",
+              "role": "여기",
+              "element": "토"
+            },
+            {
+              "hanja": "庚",
+              "hangul": "경",
+              "role": "중기",
+              "element": "금"
+            },
+            {
+              "hanja": "丙",
+              "hangul": "병",
+              "role": "본기",
+              "element": "화"
+            }
+          ],
+          "stage": "제왕"
+        },
+        {
+          "position": "day",
+          "label": "일주",
+          "known": true,
+          "ganji": "己丑",
+          "reading": "기축",
+          "stem": {
+            "hanja": "己",
+            "hangul": "기",
+            "element": "토",
+            "polarity": "음",
+            "symbol": "정원·논밭",
+            "ten_god": "일간"
+          },
+          "branch": {
+            "hanja": "丑",
+            "hangul": "축",
+            "element": "토",
+            "ten_god": "비견"
+          },
+          "hidden_stems": [
+            {
+              "hanja": "癸",
+              "hangul": "계",
+              "role": "여기",
+              "element": "수"
+            },
+            {
+              "hanja": "辛",
+              "hangul": "신",
+              "role": "중기",
+              "element": "금"
+            },
+            {
+              "hanja": "己",
+              "hangul": "기",
+              "role": "본기",
+              "element": "토"
+            }
+          ],
+          "stage": "묘"
+        },
+        {
+          "position": "hour",
+          "label": "시주",
+          "known": true,
+          "ganji": "己巳",
+          "reading": "기사",
+          "stem": {
+            "hanja": "己",
+            "hangul": "기",
+            "element": "토",
+            "polarity": "음",
+            "symbol": "정원·논밭",
+            "ten_god": "비견"
+          },
+          "branch": {
+            "hanja": "巳",
+            "hangul": "사",
+            "element": "화",
+            "ten_god": "정인"
+          },
+          "hidden_stems": [
+            {
+              "hanja": "戊",
+              "hangul": "무",
+              "role": "여기",
+              "element": "토"
+            },
+            {
+              "hanja": "庚",
+              "hangul": "경",
+              "role": "중기",
+              "element": "금"
+            },
+            {
+              "hanja": "丙",
+              "hangul": "병",
+              "role": "본기",
+              "element": "화"
+            }
+          ],
+          "stage": "제왕"
+        }
+      ],
+      "elements": [
+        {
+          "element": "목",
+          "label": "목 · 나무",
+          "count": 0,
+          "percent": 0.0
+        },
+        {
+          "element": "화",
+          "label": "화 · 불",
+          "count": 4,
+          "percent": 50.0
+        },
+        {
+          "element": "토",
+          "label": "토 · 흙",
+          "count": 3,
+          "percent": 37.5
+        },
+        {
+          "element": "금",
+          "label": "금 · 금속",
+          "count": 0,
+          "percent": 0.0
+        },
+        {
+          "element": "수",
+          "label": "수 · 물",
+          "count": 1,
+          "percent": 12.5
+        }
+      ],
+      "element_total": 8,
+      "month": {
+        "hanja": "巳",
+        "hangul": "사",
+        "season": "여름"
+      },
+      "balance": {
+        "available": true,
+        "strength": "신강",
+        "pattern": "정인격",
+        "pattern_basis": "월지 본기 투간",
+        "pattern_established": true,
+        "yong_element": "수",
+        "yong_method": "조후",
+        "hee_element": "금",
+        "season_state": "난조",
+        "month_supports": true,
+        "day_supports": true
+      },
+      "relations": [
+        {
+          "kind": "반합",
+          "members": "巳丑",
+          "type": "합"
+        },
+        {
+          "kind": "해",
+          "members": "丑午",
+          "type": "충형파해"
+        }
+      ],
+      "ten_gods": [
+        {
+          "name": "정인",
+          "count": 3
+        },
+        {
+          "name": "비견",
+          "count": 2
+        },
+        {
+          "name": "편인",
+          "count": 1
+        },
+        {
+          "name": "편재",
+          "count": 1
+        }
+      ],
+      "evidence": [
+        {
+          "id": "daymaster",
+          "label": "일간",
+          "text": "일간 己(기) · 음토. 정원·논밭의 상징.",
+          "source_id": "saju-daymaster"
+        },
+        {
+          "id": "month",
+          "label": "월지와 계절",
+          "text": "월지 巳(사) · 여름. 절기 월 기준이며 실제 출생일의 기온을 뜻하지 않음.",
+          "source_id": "saju-calendar"
+        },
+        {
+          "id": "counts",
+          "label": "오행 분포",
+          "text": "목 0 · 화 4 · 토 3 · 금 0 · 수 1. 겉으로 드러난 8글자의 개수이며 계절·지장간 가중치를 합산하지 않음.",
+          "source_id": "saju-structure"
+        },
+        {
+          "id": "ten_gods",
+          "label": "십성 구성",
+          "text": "정인 3 · 비견 2 · 편인 1 · 편재 1. 일간을 제외한 천간과 지지 본기에서 계산. 지장간 중복 집계 없음.",
+          "source_id": "saju-ten-gods"
+        },
+        {
+          "id": "relations",
+          "label": "명식 내부 관계",
+          "text": "巳丑 반합 · 丑午 해. 검출은 관계표에 따른 것. 합화 성립이나 사건·관계 성패를 확정하지 않음.",
+          "source_id": "saju-internal-relations"
+        },
+        {
+          "id": "balance",
+          "label": "강약·격국·용신",
+          "text": "억부 분류 신강 · 격국 정인격(월지 본기 투간) · 용신 수(조후) · 희신 금. 계절 상태 난조. 오행 개수만으로 판단하지 않음.",
+          "source_id": "saju-yong"
+        },
+        {
+          "id": "time_basis",
+          "label": "시각 보정의 비교",
+          "text": "경도만 보정한 평균 태양시를 본문에 사용하며, 표준시와 NOAA 균시차 근사식을 적용한 시각의 일주·시주를 별도로 비교합니다. 다른 서비스의 기준은 확인되지 않았어요.",
+          "source_id": "saju-solar-time"
+        }
+      ]
+    },
+    "birth_reading": {
+      "title": "아이의 사주 개요",
+      "summary": "여름에 태어난 아이는 불과 흙이 많고 물이 적어 받는 힘이 강한 편입니다. 배움을 통해 안정을 찾고, 새로운 기회를 연결하며 스스로 선택하는 모습을 보일 수 있습니다. 다만 확신이 서기 전까지 판단을 미루거나, 여러 기회를 쫓느라 집중이 흐트러질 수 있으니, 작은 성공 경험을 쌓으며 스스로 결정하는 연습이 도움이 됩니다.",
+      "chapters": [
+        {
+          "topic": "overview",
+          "title": "배움과 선택이 어우러진 성장 환경",
+          "paragraphs": [
+            "여름에 태어난 아이는 불과 흙이 많고 물이 적어, 받는 힘이 비교적 강한 편입니다. 이는 주변의 도움과 지지를 받으며 성장하려는 경향이 있음을 보여줍니다. 계절상 더운 시기라서 활동적이고 표현하려는 에너지가 넘치지만, 동시에 몸을 식히고 마음을 진정시킬 물의 기운이 부족해 쉽게 지치거나 충동적으로 행동할 수도 있습니다. 따라서 아이는 외부에서 들어오는 정보와 지원을 정리하고, 스스로 선택할 수 있는 힘을 기르는 과정에서 균형을 찾을 수 있습니다.",
+            "배움을 통해 안정을 얻고, 새로운 사람이나 기회를 만나며 경험을 넓혀가는 모습을 보일 수 있습니다. 예를 들어 그림책을 읽어주는 어른의 설명에 귀 기울이다가, 갑자기 새로운 장난감이나 활동에 관심을 보이면서도 다시 익숙한 이야기로 돌아오는 모습을 반복할 수 있습니다. 이는 이해하고 싶은 욕구와 새로운 것을 탐구하려는 마음이 동시에 작용하기 때문입니다. 또래와의 놀이에서도 규칙을 스스로 정하거나, 친구의 제안을 따라가다가도 자기 방식대로 바꾸는 모습을 보일 수 있습니다.",
+            "이런 성향은 배움과 지원을 충분히 받을 때는 안정감 있게 성장하지만, 확신이 서기 전까지 판단을 미루거나, 여러 기회를 쫓느라 한 가지에 집중하지 못하는 경향으로 이어질 수 있습니다. 예를 들어 새로운 활동을 시작했지만 금방 흥미를 잃고 다른 것을 찾거나, 어른의 도움을 기다리다가 정작 스스로 해볼 기회를 놓칠 수 있습니다. 따라서 작은 성공 경험을 쌓으며 '내가 선택해서 해봤다'는 느낌을 자주 갖게 하는 것이 중요합니다. 이는 받는 힘에 의존하기보다 스스로 판단하고 행동하는 힘을 기르는 데 도움이 됩니다."
+          ],
+          "reflection": "받쳐주는 관계가 많다는 계산 결과를 바탕으로, 아이는 외부 지원을 받으며 배우고 선택하는 과정에서 성장할 수 있음을 설명했습니다. 생활 예시는 아이의 발달 단계에 맞게 구체적인 행동을 통해 풀어냈고, 약점은 판단 미루기와 집중 분산으로 연결하여 과해질 때의 모습을 보여주었습니다.",
+          "evidence_ids": [
+            "balance",
+            "month",
+            "ten_gods",
+            "relations"
+          ],
+          "body": "여름에 태어난 아이는 불과 흙이 많고 물이 적어, 받는 힘이 비교적 강한 편입니다. 이는 주변의 도움과 지지를 받으며 성장하려는 경향이 있음을 보여줍니다. 계절상 더운 시기라서 활동적이고 표현하려는 에너지가 넘치지만, 동시에 몸을 식히고 마음을 진정시킬 물의 기운이 부족해 쉽게 지치거나 충동적으로 행동할 수도 있습니다. 따라서 아이는 외부에서 들어오는 정보와 지원을 정리하고, 스스로 선택할 수 있는 힘을 기르는 과정에서 균형을 찾을 수 있습니다.\n\n배움을 통해 안정을 얻고, 새로운 사람이나 기회를 만나며 경험을 넓혀가는 모습을 보일 수 있습니다. 예를 들어 그림책을 읽어주는 어른의 설명에 귀 기울이다가, 갑자기 새로운 장난감이나 활동에 관심을 보이면서도 다시 익숙한 이야기로 돌아오는 모습을 반복할 수 있습니다. 이는 이해하고 싶은 욕구와 새로운 것을 탐구하려는 마음이 동시에 작용하기 때문입니다. 또래와의 놀이에서도 규칙을 스스로 정하거나, 친구의 제안을 따라가다가도 자기 방식대로 바꾸는 모습을 보일 수 있습니다.\n\n이런 성향은 배움과 지원을 충분히 받을 때는 안정감 있게 성장하지만, 확신이 서기 전까지 판단을 미루거나, 여러 기회를 쫓느라 한 가지에 집중하지 못하는 경향으로 이어질 수 있습니다. 예를 들어 새로운 활동을 시작했지만 금방 흥미를 잃고 다른 것을 찾거나, 어른의 도움을 기다리다가 정작 스스로 해볼 기회를 놓칠 수 있습니다. 따라서 작은 성공 경험을 쌓으며 '내가 선택해서 해봤다'는 느낌을 자주 갖게 하는 것이 중요합니다. 이는 받는 힘에 의존하기보다 스스로 판단하고 행동하는 힘을 기르는 데 도움이 됩니다.",
+          "lead": "여름에 태어난 아이는 불과 흙이 많고 물이 적어, 받는 힘이 비교적 강한 편입니다. 이는 주변의 도움과 지지를 받으며 성장하려는 경향이 있음을 보여줍니다. 계절상 더운 시기라서 활동적이고 표현하려는 에너지가 넘치지만, 동시에 몸을 식히고 마음을 진정시킬 물의 기운이 부족해 쉽게 지치거나 충동적으로 행동할 수도 있습니다. 따라서 아이는 외부에서 들어오는 정보와 지원을 정리하고, 스스로 선택할 수 있는 힘을 기르는 과정에서 균형을 찾을 수 있습니다.",
+          "source_ids": [
+            "saju-yong",
+            "saju-calendar",
+            "saju-ten-gods",
+            "saju-internal-relations"
+          ],
+          "basis": "강약·격국·용신: 억부 분류 신강 · 격국 정인격(월지 본기 투간) · 용신 수(조후) · 희신 금. 계절 상태 난조. 오행 개수만으로 판단하지 않음. · 월지와 계절: 월지 巳(사) · 여름. 절기 월 기준이며 실제 출생일의 기온을 뜻하지 않음. · 십성 구성: 정인 3 · 비견 2 · 편인 1 · 편재 1. 일간을 제외한 천간과 지지 본기에서 계산. 지장간 중복 집계 없음. · 명식 내부 관계: 巳丑 반합 · 丑午 해. 검출은 관계표에 따른 것. 합화 성립이나 사건·관계 성패를 확정하지 않음."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "daymaster",
+          "label": "일간",
+          "text": "일간 己(기) · 음토. 정원·논밭의 상징.",
+          "source_id": "saju-daymaster"
+        },
+        {
+          "id": "month",
+          "label": "월지와 계절",
+          "text": "월지 巳(사) · 여름. 절기 월 기준이며 실제 출생일의 기온을 뜻하지 않음.",
+          "source_id": "saju-calendar"
+        },
+        {
+          "id": "counts",
+          "label": "오행 분포",
+          "text": "목 0 · 화 4 · 토 3 · 금 0 · 수 1. 겉으로 드러난 8글자의 개수이며 계절·지장간 가중치를 합산하지 않음.",
+          "source_id": "saju-structure"
+        },
+        {
+          "id": "ten_gods",
+          "label": "십성 구성",
+          "text": "정인 3 · 비견 2 · 편인 1 · 편재 1. 일간을 제외한 천간과 지지 본기에서 계산. 지장간 중복 집계 없음.",
+          "source_id": "saju-ten-gods"
+        },
+        {
+          "id": "relations",
+          "label": "명식 내부 관계",
+          "text": "巳丑 반합 · 丑午 해. 검출은 관계표에 따른 것. 합화 성립이나 사건·관계 성패를 확정하지 않음.",
+          "source_id": "saju-internal-relations"
+        },
+        {
+          "id": "balance",
+          "label": "강약·격국·용신",
+          "text": "억부 분류 신강 · 격국 정인격(월지 본기 투간) · 용신 수(조후) · 희신 금. 계절 상태 난조. 오행 개수만으로 판단하지 않음.",
+          "source_id": "saju-yong"
+        },
+        {
+          "id": "time_basis",
+          "label": "시각 보정의 비교",
+          "text": "경도만 보정한 평균 태양시를 본문에 사용하며, 표준시와 NOAA 균시차 근사식을 적용한 시각의 일주·시주를 별도로 비교합니다. 다른 서비스의 기준은 확인되지 않았어요.",
+          "source_id": "saju-solar-time"
+        }
+      ],
+      "metadata": {
+        "mode": "fresh_model",
+        "version": "fresh-reading-1",
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "previous_reading_used": false,
+        "actual_models": [
+          "nvidia/nemotron-3-super-120b-a12b:free"
+        ],
+        "skill_sha256": "05daae01df0c4b4567da646208e162b78b7b1f89509fc93371308632271257da",
+        "input_sha256": "6c1ee5f132dc68ff8194c4209ed7e5a7e0a44c2c0396f71c7fdd94459130a798",
+        "context_size": null,
+        "output_limit": 3000,
+        "thinking": false,
+        "cache_hit": false,
+        "temperature": 0.2,
+        "seed": 42,
+        "calls": [
+          {
+            "provider": "openrouter",
+            "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "response_format": "json_schema",
+            "input_tokens": 6007,
+            "output_tokens": 597,
+            "done_reason": "stop",
+            "seconds": 7.74,
+            "topics": [
+              "overview"
+            ],
+            "repair": false
+          }
+        ],
+        "seconds": 7.77
+      }
+    },
+    "scope": "검토된 한자의 사전 뜻·공식 독음 조회 자료·이름 소리·동일한 출생 명식의 참고 관계. 한자 자원오행·원획·81수리 길흉 판정 자료는 제공되지 않았습니다.",
+    "registry_checked_at": "2026-10-09",
+    "preference_label": "지혜와 배움",
+    "source_ids": [
+      "name-hanja-dictionary",
+      "name-sound",
+      "name-elements",
+      "name-registry",
+      "name-recommendation-rules"
+    ],
+    "generation": {
+      "mode": "fresh_model",
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "previous_reading_used": false,
+      "candidate_count": 3,
+      "parts": [
+        {
+          "mode": "fresh_model",
+          "version": "fresh-reading-1",
+          "provider": "openrouter",
+          "model": "nvidia/nemotron-3-super-120b-a12b:free",
+          "previous_reading_used": false,
+          "actual_models": [
+            "nvidia/nemotron-3-super-120b-a12b:free"
+          ],
+          "skill_sha256": "05daae01df0c4b4567da646208e162b78b7b1f89509fc93371308632271257da",
+          "input_sha256": "6c1ee5f132dc68ff8194c4209ed7e5a7e0a44c2c0396f71c7fdd94459130a798",
+          "context_size": null,
+          "output_limit": 3000,
+          "thinking": false,
+          "cache_hit": false,
+          "temperature": 0.2,
+          "seed": 42,
+          "calls": [
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 6007,
+              "output_tokens": 597,
+              "done_reason": "stop",
+              "seconds": 7.74,
+              "topics": [
+                "overview"
+              ],
+              "repair": false
+            }
+          ],
+          "seconds": 7.77
+        },
+        {
+          "mode": "fresh_model",
+          "previous_reading_used": false,
+          "parts": [
+            {
+              "mode": "fresh_model",
+              "provider": "openrouter",
+              "model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "previous_reading_used": false,
+              "input_sha256": "560b48fd54f461fda64b88377dd3dcb399e2d8a885e3c6cb5026593fa785734e",
+              "calls": [
+                {
+                  "provider": "openrouter",
+                  "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                  "response_format": "json_schema",
+                  "input_tokens": 2321,
+                  "output_tokens": 406,
+                  "done_reason": "stop",
+                  "seconds": 4.48
+                }
+              ],
+              "cache_hit": false,
+              "seconds": 4.49,
+              "actual_models": [
+                "nvidia/nemotron-3-super-120b-a12b:free"
+              ],
+              "vocabulary_normalized": true
+            },
+            {
+              "mode": "fresh_model",
+              "provider": "openrouter",
+              "model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "previous_reading_used": false,
+              "input_sha256": "8b667c63adedd52bf8a53bbcf0d09fadc3b399354153ba9ca027aeb13de1d2c2",
+              "calls": [
+                {
+                  "provider": "openrouter",
+                  "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                  "response_format": "json_schema",
+                  "input_tokens": 3509,
+                  "output_tokens": 1834,
+                  "done_reason": "stop",
+                  "seconds": 18.97
+                }
+              ],
+              "cache_hit": false,
+              "seconds": 18.99,
+              "actual_models": [
+                "nvidia/nemotron-3-super-120b-a12b:free"
+              ],
+              "vocabulary_normalized": true
+            }
+          ],
+          "calls": [
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 2321,
+              "output_tokens": 406,
+              "done_reason": "stop",
+              "seconds": 4.48
+            },
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 3509,
+              "output_tokens": 1834,
+              "done_reason": "stop",
+              "seconds": 18.97
+            }
+          ],
+          "seconds": 23.479999999999997,
+          "actual_models": [
+            "nvidia/nemotron-3-super-120b-a12b:free"
+          ]
+        },
+        {
+          "mode": "fresh_model",
+          "previous_reading_used": false,
+          "parts": [
+            {
+              "mode": "fresh_model",
+              "provider": "openrouter",
+              "model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "previous_reading_used": false,
+              "input_sha256": "4fcd772866b2162ce68c16e4267a7f6dcecfb0a8bb736cb03d917669cfed8bc4",
+              "calls": [
+                {
+                  "provider": "openrouter",
+                  "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                  "response_format": "json_schema",
+                  "input_tokens": 2321,
+                  "output_tokens": 546,
+                  "done_reason": "stop",
+                  "seconds": 10.84
+                }
+              ],
+              "cache_hit": false,
+              "seconds": 10.85,
+              "actual_models": [
+                "nvidia/nemotron-3-super-120b-a12b:free"
+              ],
+              "vocabulary_normalized": true
+            },
+            {
+              "mode": "fresh_model",
+              "provider": "openrouter",
+              "model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "previous_reading_used": false,
+              "input_sha256": "408540961e6979c42d89747c0ffe75c909eab0dcd51d9ea79456252957add465",
+              "calls": [
+                {
+                  "provider": "openrouter",
+                  "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                  "response_format": "json_schema",
+                  "input_tokens": 3512,
+                  "output_tokens": 1575,
+                  "done_reason": "stop",
+                  "seconds": 15.51
+                },
+                {
+                  "provider": "openrouter",
+                  "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                  "response_format": "json_schema",
+                  "input_tokens": 3585,
+                  "output_tokens": 1177,
+                  "done_reason": "stop",
+                  "seconds": 11.32
+                }
+              ],
+              "cache_hit": false,
+              "seconds": 26.89,
+              "actual_models": [
+                "nvidia/nemotron-3-super-120b-a12b:free"
+              ],
+              "vocabulary_normalized": true
+            }
+          ],
+          "calls": [
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 2321,
+              "output_tokens": 546,
+              "done_reason": "stop",
+              "seconds": 10.84
+            },
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 3512,
+              "output_tokens": 1575,
+              "done_reason": "stop",
+              "seconds": 15.51
+            },
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 3585,
+              "output_tokens": 1177,
+              "done_reason": "stop",
+              "seconds": 11.32
+            }
+          ],
+          "seconds": 37.74,
+          "actual_models": [
+            "nvidia/nemotron-3-super-120b-a12b:free"
+          ]
+        },
+        {
+          "mode": "fresh_model",
+          "previous_reading_used": false,
+          "parts": [
+            {
+              "mode": "fresh_model",
+              "provider": "openrouter",
+              "model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "previous_reading_used": false,
+              "input_sha256": "ab4c53b36e4a615f2e161037640909968c0565b699ae763061921244bf429bf6",
+              "calls": [
+                {
+                  "provider": "openrouter",
+                  "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                  "response_format": "json_schema",
+                  "input_tokens": 2321,
+                  "output_tokens": 343,
+                  "done_reason": "stop",
+                  "seconds": 6.44
+                }
+              ],
+              "cache_hit": false,
+              "seconds": 6.45,
+              "actual_models": [
+                "nvidia/nemotron-3-super-120b-a12b:free"
+              ],
+              "vocabulary_normalized": true
+            },
+            {
+              "calls": [],
+              "seconds": 0,
+              "actual_models": [],
+              "previous_reading_used": false
+            }
+          ],
+          "calls": [
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 2321,
+              "output_tokens": 343,
+              "done_reason": "stop",
+              "seconds": 6.44
+            }
+          ],
+          "seconds": 6.45,
+          "actual_models": [
+            "nvidia/nemotron-3-super-120b-a12b:free"
+          ]
+        },
+        {
+          "mode": "fresh_model",
+          "provider": "openrouter",
+          "model": "nvidia/nemotron-3-super-120b-a12b:free",
+          "previous_reading_used": false,
+          "input_sha256": "856d8017e3aae29642db01fad61bcb112382432f4e853a6d5d3e637eeaeaf5b8",
+          "calls": [
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 4789,
+              "output_tokens": 1590,
+              "done_reason": "stop",
+              "seconds": 26.26
+            },
+            {
+              "provider": "openrouter",
+              "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+              "response_format": "json_schema",
+              "input_tokens": 4809,
+              "output_tokens": 1276,
+              "done_reason": "stop",
+              "seconds": 17.75
+            }
+          ],
+          "cache_hit": false,
+          "seconds": 44.03,
+          "actual_models": [
+            "nvidia/nemotron-3-super-120b-a12b:free"
+          ],
+          "vocabulary_normalized": true
+        }
+      ],
+      "calls": [
+        {
+          "provider": "openrouter",
+          "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+          "response_format": "json_schema",
+          "input_tokens": 6007,
+          "output_tokens": 597,
+          "done_reason": "stop",
+          "seconds": 7.74,
+          "topics": [
+            "overview"
+          ],
+          "repair": false
+        },
+        {
+          "provider": "openrouter",
+          "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+          "response_format": "json_schema",
+          "input_tokens": 2321,
+          "output_tokens": 406,
+          "done_reason": "stop",
+          "seconds": 4.48
+        },
+        {
+          "provider": "openrouter",
+          "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+          "response_format": "json_schema",
+          "input_tokens": 3509,
+          "output_tokens": 1834,
+          "done_reason": "stop",
+          "seconds": 18.97
+        },
+        {
+          "provider": "openrouter",
+          "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+          "response_format": "json_schema",
+          "input_tokens": 2321,
+          "output_tokens": 546,
+          "done_reason": "stop",
+          "seconds": 10.84
+        },
+        {
+          "provider": "openrouter",
+          "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+          "response_format": "json_schema",
+          "input_tokens": 3512,
+          "output_tokens": 1575,
+          "done_reason": "stop",
+          "seconds": 15.51
+        },
+        {
+          "provider": "openrouter",
+          "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+          "response_format": "json_schema",
+          "input_tokens": 3585,
+          "output_tokens": 1177,
+          "done_reason": "stop",
+          "seconds": 11.32
+        },
+        {
+          "provider": "openrouter",
+          "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+          "response_format": "json_schema",
+          "input_tokens": 2321,
+          "output_tokens": 343,
+          "done_reason": "stop",
+          "seconds": 6.44
+        },
+        {
+          "provider": "openrouter",
+          "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+          "response_format": "json_schema",
+          "input_tokens": 4789,
+          "output_tokens": 1590,
+          "done_reason": "stop",
+          "seconds": 26.26
+        },
+        {
+          "provider": "openrouter",
+          "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+          "response_format": "json_schema",
+          "input_tokens": 4809,
+          "output_tokens": 1276,
+          "done_reason": "stop",
+          "seconds": 17.75
+        }
+      ],
+      "seconds": 119.47,
+      "actual_models": [
+        "nvidia/nemotron-3-super-120b-a12b:free"
+      ]
+    },
+    "surname_characters": [
+      {
+        "character": "朴",
+        "syllable": "박",
+        "position": "성",
+        "kind": "surname",
+        "meaning": "소박함·꾸밈없음·성씨",
+        "definition": "simple, unadorned; sincere; surname; a tree",
+        "readings": [
+          "박"
+        ],
+        "themes": [],
+        "registry": {
+          "status": "surname",
+          "label": "가족의 성씨 한자 확인",
+          "source_url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+          "checked_at": null
+        }
+      }
+    ]
+  },
+  "editorial_mode": "fresh_model",
+  "generation": {
+    "mode": "fresh_model",
+    "provider": "openrouter",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "previous_reading_used": false,
+    "candidate_count": 3,
+    "parts": [
+      {
+        "mode": "fresh_model",
+        "version": "fresh-reading-1",
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "previous_reading_used": false,
+        "actual_models": [
+          "nvidia/nemotron-3-super-120b-a12b:free"
+        ],
+        "skill_sha256": "05daae01df0c4b4567da646208e162b78b7b1f89509fc93371308632271257da",
+        "input_sha256": "6c1ee5f132dc68ff8194c4209ed7e5a7e0a44c2c0396f71c7fdd94459130a798",
+        "context_size": null,
+        "output_limit": 3000,
+        "thinking": false,
+        "cache_hit": false,
+        "temperature": 0.2,
+        "seed": 42,
+        "calls": [
+          {
+            "provider": "openrouter",
+            "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "response_format": "json_schema",
+            "input_tokens": 6007,
+            "output_tokens": 597,
+            "done_reason": "stop",
+            "seconds": 7.74,
+            "topics": [
+              "overview"
+            ],
+            "repair": false
+          }
+        ],
+        "seconds": 7.77
+      },
+      {
+        "mode": "fresh_model",
+        "previous_reading_used": false,
+        "parts": [
+          {
+            "mode": "fresh_model",
+            "provider": "openrouter",
+            "model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "previous_reading_used": false,
+            "input_sha256": "560b48fd54f461fda64b88377dd3dcb399e2d8a885e3c6cb5026593fa785734e",
+            "calls": [
+              {
+                "provider": "openrouter",
+                "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                "response_format": "json_schema",
+                "input_tokens": 2321,
+                "output_tokens": 406,
+                "done_reason": "stop",
+                "seconds": 4.48
+              }
+            ],
+            "cache_hit": false,
+            "seconds": 4.49,
+            "actual_models": [
+              "nvidia/nemotron-3-super-120b-a12b:free"
+            ],
+            "vocabulary_normalized": true
+          },
+          {
+            "mode": "fresh_model",
+            "provider": "openrouter",
+            "model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "previous_reading_used": false,
+            "input_sha256": "8b667c63adedd52bf8a53bbcf0d09fadc3b399354153ba9ca027aeb13de1d2c2",
+            "calls": [
+              {
+                "provider": "openrouter",
+                "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                "response_format": "json_schema",
+                "input_tokens": 3509,
+                "output_tokens": 1834,
+                "done_reason": "stop",
+                "seconds": 18.97
+              }
+            ],
+            "cache_hit": false,
+            "seconds": 18.99,
+            "actual_models": [
+              "nvidia/nemotron-3-super-120b-a12b:free"
+            ],
+            "vocabulary_normalized": true
+          }
+        ],
+        "calls": [
+          {
+            "provider": "openrouter",
+            "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "response_format": "json_schema",
+            "input_tokens": 2321,
+            "output_tokens": 406,
+            "done_reason": "stop",
+            "seconds": 4.48
+          },
+          {
+            "provider": "openrouter",
+            "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "response_format": "json_schema",
+            "input_tokens": 3509,
+            "output_tokens": 1834,
+            "done_reason": "stop",
+            "seconds": 18.97
+          }
+        ],
+        "seconds": 23.479999999999997,
+        "actual_models": [
+          "nvidia/nemotron-3-super-120b-a12b:free"
+        ]
+      },
+      {
+        "mode": "fresh_model",
+        "previous_reading_used": false,
+        "parts": [
+          {
+            "mode": "fresh_model",
+            "provider": "openrouter",
+            "model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "previous_reading_used": false,
+            "input_sha256": "4fcd772866b2162ce68c16e4267a7f6dcecfb0a8bb736cb03d917669cfed8bc4",
+            "calls": [
+              {
+                "provider": "openrouter",
+                "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                "response_format": "json_schema",
+                "input_tokens": 2321,
+                "output_tokens": 546,
+                "done_reason": "stop",
+                "seconds": 10.84
+              }
+            ],
+            "cache_hit": false,
+            "seconds": 10.85,
+            "actual_models": [
+              "nvidia/nemotron-3-super-120b-a12b:free"
+            ],
+            "vocabulary_normalized": true
+          },
+          {
+            "mode": "fresh_model",
+            "provider": "openrouter",
+            "model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "previous_reading_used": false,
+            "input_sha256": "408540961e6979c42d89747c0ffe75c909eab0dcd51d9ea79456252957add465",
+            "calls": [
+              {
+                "provider": "openrouter",
+                "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                "response_format": "json_schema",
+                "input_tokens": 3512,
+                "output_tokens": 1575,
+                "done_reason": "stop",
+                "seconds": 15.51
+              },
+              {
+                "provider": "openrouter",
+                "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                "response_format": "json_schema",
+                "input_tokens": 3585,
+                "output_tokens": 1177,
+                "done_reason": "stop",
+                "seconds": 11.32
+              }
+            ],
+            "cache_hit": false,
+            "seconds": 26.89,
+            "actual_models": [
+              "nvidia/nemotron-3-super-120b-a12b:free"
+            ],
+            "vocabulary_normalized": true
+          }
+        ],
+        "calls": [
+          {
+            "provider": "openrouter",
+            "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "response_format": "json_schema",
+            "input_tokens": 2321,
+            "output_tokens": 546,
+            "done_reason": "stop",
+            "seconds": 10.84
+          },
+          {
+            "provider": "openrouter",
+            "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "response_format": "json_schema",
+            "input_tokens": 3512,
+            "output_tokens": 1575,
+            "done_reason": "stop",
+            "seconds": 15.51
+          },
+          {
+            "provider": "openrouter",
+            "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "response_format": "json_schema",
+            "input_tokens": 3585,
+            "output_tokens": 1177,
+            "done_reason": "stop",
+            "seconds": 11.32
+          }
+        ],
+        "seconds": 37.74,
+        "actual_models": [
+          "nvidia/nemotron-3-super-120b-a12b:free"
+        ]
+      },
+      {
+        "mode": "fresh_model",
+        "previous_reading_used": false,
+        "parts": [
+          {
+            "mode": "fresh_model",
+            "provider": "openrouter",
+            "model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "previous_reading_used": false,
+            "input_sha256": "ab4c53b36e4a615f2e161037640909968c0565b699ae763061921244bf429bf6",
+            "calls": [
+              {
+                "provider": "openrouter",
+                "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+                "response_format": "json_schema",
+                "input_tokens": 2321,
+                "output_tokens": 343,
+                "done_reason": "stop",
+                "seconds": 6.44
+              }
+            ],
+            "cache_hit": false,
+            "seconds": 6.45,
+            "actual_models": [
+              "nvidia/nemotron-3-super-120b-a12b:free"
+            ],
+            "vocabulary_normalized": true
+          },
+          {
+            "calls": [],
+            "seconds": 0,
+            "actual_models": [],
+            "previous_reading_used": false
+          }
+        ],
+        "calls": [
+          {
+            "provider": "openrouter",
+            "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "response_format": "json_schema",
+            "input_tokens": 2321,
+            "output_tokens": 343,
+            "done_reason": "stop",
+            "seconds": 6.44
+          }
+        ],
+        "seconds": 6.45,
+        "actual_models": [
+          "nvidia/nemotron-3-super-120b-a12b:free"
+        ]
+      },
+      {
+        "mode": "fresh_model",
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "previous_reading_used": false,
+        "input_sha256": "856d8017e3aae29642db01fad61bcb112382432f4e853a6d5d3e637eeaeaf5b8",
+        "calls": [
+          {
+            "provider": "openrouter",
+            "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "response_format": "json_schema",
+            "input_tokens": 4789,
+            "output_tokens": 1590,
+            "done_reason": "stop",
+            "seconds": 26.26
+          },
+          {
+            "provider": "openrouter",
+            "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+            "response_format": "json_schema",
+            "input_tokens": 4809,
+            "output_tokens": 1276,
+            "done_reason": "stop",
+            "seconds": 17.75
+          }
+        ],
+        "cache_hit": false,
+        "seconds": 44.03,
+        "actual_models": [
+          "nvidia/nemotron-3-super-120b-a12b:free"
+        ],
+        "vocabulary_normalized": true
+      }
+    ],
+    "calls": [
+      {
+        "provider": "openrouter",
+        "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response_format": "json_schema",
+        "input_tokens": 6007,
+        "output_tokens": 597,
+        "done_reason": "stop",
+        "seconds": 7.74,
+        "topics": [
+          "overview"
+        ],
+        "repair": false
+      },
+      {
+        "provider": "openrouter",
+        "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response_format": "json_schema",
+        "input_tokens": 2321,
+        "output_tokens": 406,
+        "done_reason": "stop",
+        "seconds": 4.48
+      },
+      {
+        "provider": "openrouter",
+        "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response_format": "json_schema",
+        "input_tokens": 3509,
+        "output_tokens": 1834,
+        "done_reason": "stop",
+        "seconds": 18.97
+      },
+      {
+        "provider": "openrouter",
+        "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response_format": "json_schema",
+        "input_tokens": 2321,
+        "output_tokens": 546,
+        "done_reason": "stop",
+        "seconds": 10.84
+      },
+      {
+        "provider": "openrouter",
+        "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response_format": "json_schema",
+        "input_tokens": 3512,
+        "output_tokens": 1575,
+        "done_reason": "stop",
+        "seconds": 15.51
+      },
+      {
+        "provider": "openrouter",
+        "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response_format": "json_schema",
+        "input_tokens": 3585,
+        "output_tokens": 1177,
+        "done_reason": "stop",
+        "seconds": 11.32
+      },
+      {
+        "provider": "openrouter",
+        "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response_format": "json_schema",
+        "input_tokens": 2321,
+        "output_tokens": 343,
+        "done_reason": "stop",
+        "seconds": 6.44
+      },
+      {
+        "provider": "openrouter",
+        "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response_format": "json_schema",
+        "input_tokens": 4789,
+        "output_tokens": 1590,
+        "done_reason": "stop",
+        "seconds": 26.26
+      },
+      {
+        "provider": "openrouter",
+        "actual_model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response_format": "json_schema",
+        "input_tokens": 4809,
+        "output_tokens": 1276,
+        "done_reason": "stop",
+        "seconds": 17.75
+      }
+    ],
+    "seconds": 119.47,
+    "actual_models": [
+      "nvidia/nemotron-3-super-120b-a12b:free"
+    ],
+    "presentation_vocabulary": {
+      "nasal": "콧소리"
+    }
+  },
+  "sources": [
+    {
+      "id": "name-sound",
+      "title": "이름의 소리부터 살펴보기",
+      "url": "https://namestory.kr/m/bbs/board.php?bo_table=sub3_1&page=17&wr_id=19",
+      "note": "모아 자체 요약. 원문 재배포 없음."
+    },
+    {
+      "id": "name-elements",
+      "title": "발음오행의 한 가지 기준",
+      "url": "https://namestory.kr/m/bbs/board.php?bo_table=sub3_1&page=17&wr_id=19",
+      "note": "모아 자체 요약. 원문 재배포 없음."
+    },
+    {
+      "id": "saju-calendar",
+      "title": "생일과 절기 계산",
+      "url": "https://github.com/glee1228/korean_saju",
+      "note": "MIT 라이브러리 문서에 대한 자체 요약."
+    },
+    {
+      "id": "saju-daymaster",
+      "title": "나를 나타내는 일간",
+      "url": "https://github.com/glee1228/korean_saju",
+      "note": "MIT 라이브러리 기반 자체 요약."
+    },
+    {
+      "id": "saju-yong",
+      "title": "균형을 살피는 용신",
+      "url": "https://github.com/glee1228/korean_saju",
+      "note": "MIT 라이브러리 기반 자체 요약."
+    },
+    {
+      "id": "saju-structure",
+      "title": "명식을 읽는 순서",
+      "url": "https://github.com/glee1228/korean_saju",
+      "note": "MIT 계산 엔진에 대한 모아 자체 설명."
+    },
+    {
+      "id": "saju-ten-gods",
+      "title": "십성으로 살피는 관계와 역할",
+      "url": "https://github.com/glee1228/korean_saju",
+      "note": "MIT 계산 엔진에 대한 모아 자체 설명."
+    },
+    {
+      "id": "saju-internal-relations",
+      "title": "원국 안의 합·충·형·파·해",
+      "url": "https://github.com/glee1228/korean_saju",
+      "note": "MIT 계산 엔진에 대한 모아 자체 설명."
+    },
+    {
+      "id": "name-hanja-dictionary",
+      "title": "입력한 이름 한자의 사전 뜻과 독음",
+      "url": "https://www.unicode.org/reports/tr38/",
+      "note": "Unicode License V3 · Unicode Consortium. 한국어 기본 뜻은 모아 자체 정리."
+    },
+    {
+      "id": "name-registry",
+      "title": "공식 인명용 한자와 지정 독음 확인",
+      "url": "https://efamily.scourt.go.kr/cs/CsBltnWrtList.do?bltnbordId=0000010",
+      "note": "공식 공개 조회의 글자·독음 사실과 모아 자체 안내. 사전 설명문은 재배포하지 않음."
+    },
+    {
+      "id": "name-recommendation-rules",
+      "title": "뜻과 가족의 바람에 따른 이름 조합 추천",
+      "url": "https://moa-name-studio.dj14-park.chatgpt.site/method.html#naming",
+      "note": "모아 자체 편집 후보와 의미 연결 규칙. 전문가 전체 작명 사례 검증 미완료."
+    },
+    {
+      "id": "saju-solar-time",
+      "title": "태양시와 균시차 비교 기준",
+      "url": "https://gml.noaa.gov/grad/solcalc/solareqns.PDF",
+      "note": "NOAA 공식 계산식에 대한 자체 요약 및 비교 구현."
+    }
+  ],
+  "demo": true,
+  "example_request": {
+    "service": "name",
+    "profile": {
+      "name": "지민",
+      "surname": "박",
+      "name_hanja": "",
+      "surname_hanja": "朴",
+      "naming_preference": "wisdom",
+      "birth_date": "2026-05-15",
+      "birth_time": "10:30",
+      "city": "seoul",
+      "gender": null
+    },
+    "partner": null,
+    "name_candidates": [
+      {
+        "name": "서연",
+        "name_hanja": ""
+      },
+      {
+        "name": "가람",
+        "name_hanja": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "dist/assets/watercolor-notebook.png",
+  "method": "built-in image_gen.imagegen",
+  "prompt": "Use case: illustration-story. Asset type: decorative watercolor hero illustration for a Korean saju and baby-name consultation website. Primary request: a delicately hand-painted still life of a small open ivory notebook, a thin pencil, a tiny sprig of wildflowers, a pale peach sun and a pale lilac crescent moon floating above the page, with scattered soft sage leaves. Style: authentic loose watercolor on warm ivory cotton paper, visible pigment blooms, delicate imperfect graphite contours, airy handmade stationery illustration. Palette: muted dusty rose, sage, butter yellow, pale lavender, warm ivory. Composition: landscape, airy central still life with lots of blank cream space around it, notebook pages entirely blank. No people, no legible text, no letters, no UI, no photorealism, no glossy 3D, no glowing effects, no watermark.",
+  "fonts": [
+    {
+      "family": "Nanum Pen Script",
+      "source": "https://github.com/google/fonts/tree/main/ofl/nanumpenscript",
+      "license": "SIL OFL 1.1",
+      "local": "NanumPenScript-Regular.woff2"
+    },
+    {
+      "family": "Gowun Batang",
+      "source": "https://github.com/google/fonts/tree/main/ofl/gowunbatang",
+      "license": "SIL OFL 1.1",
+      "local": "GowunBatang-Regular.woff2"
+    }
+  ]
+}

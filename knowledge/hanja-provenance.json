@@ -1,0 +1,14 @@
+{
+  "source": "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+  "version": "17.0.0",
+  "zip_sha256": "f7a48b2b545acfaa77b2d607ae28747404ce02baefee16396c5d2d7a8ef34b5e",
+  "fields": [
+    "kDefinition",
+    "kHangul"
+  ],
+  "license_url": "https://www.unicode.org/license.txt",
+  "license": "Unicode License V3",
+  "rows": 24012,
+  "korean_glosses": "모아가 kDefinition의 기본 뜻을 한국어로 정리한 설명. 작명 길흉·자원오행·원획 표가 아님.",
+  "scope": "일반 한자 사전 뜻과 독음. 인명용 한자 허용 여부는 별도 확인."
+}

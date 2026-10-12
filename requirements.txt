@@ -1,0 +1,7 @@
+fastapi==0.143.0
+uvicorn==0.54.0
+httpx==0.28.1
+korean-saju==0.3.0
+astronomy-engine==2.1.19
+rdflib==7.6.0
+python-dotenv==1.2.1

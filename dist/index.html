@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f8f7f2">
+  <meta name="description" content="사주 명식과 해석 근거, 아이 이름의 소리 분석. 모아에서 읽기 쉬운 나만의 분석 리포트를 만나보세요.">
+  <title>모아 — 한 번의 입력, 사주·점성술·이름을 함께</title>
+  <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <link rel="stylesheet" href="./assets/premium.css">
+  <link rel="stylesheet" href="./assets/notebook.css">
+  <link rel="preload" href="./assets/NanumPenScript-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <script defer src="./assets/hanja.js"></script>
+  <script defer src="./assets/naming.js"></script>
+  <script defer src="./assets/profile.js"></script>
+  <script defer src="./assets/report.js"></script>
+  <script defer src="./assets/compatibility.js"></script>
+  <script defer src="./assets/birthplaces.js"></script>
+  <script defer src="./assets/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">본문으로 바로가기</a>
+<svg class="sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2.9 7.1L22 12l-7.1 2.9L12 22l-2.9-7.1L2 12l7.1-2.9L12 2Z"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6v15M12 6C8 3 3 4 3 4v15s5-1 9 2c4-3 9-2 9-2V4s-5-1-9 2Z"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 16V3m-5 5 5-5 5 5M5 13v7h14v-7"/></symbol>
+</defs></svg>
+
+<header class="header">
+  <div class="shell header-inner">
+    <a class="brand" href="./" aria-label="모아 홈"><img src="./assets/mark.svg" width="29" height="29" alt=""><span>moa<span class="brand-dot">.</span></span></a>
+    <nav class="nav" aria-label="주 메뉴"><button data-service="saju">사주</button><button data-service="name">아이 이름</button><button data-service="compatibility">궁합</button><button data-service="stars">별자리</button></nav>
+    <button class="saved-trigger" id="saved-trigger"><svg class="icon"><use href="#i-heart"/></svg><span>관심 이름</span><span id="saved-count" class="saved-count" hidden>0</span></button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero shell">
+    <div class="hero-copy">
+      <div id="entry-message" class="entry-message" hidden></div>
+      <p class="handwritten hero-kicker">나를 알아가는 작은 기록, 모아</p><h1>타고난 나를 읽고,<br><span class="highlight">좋은 이름을 담다.</span></h1>
+      <p class="hero-description">조금 어려웠던 사주를, 내 이야기처럼.<br>삶의 흐름부터 아이 이름에 담을 마음까지 함께 읽어요.</p>
+      <div class="hero-actions"><button class="button primary" data-service="name">우리 아이 이름 상담하기<svg class="icon"><use href="#i-arrow"/></svg></button><button class="button outline" data-service="saju">내 사주 분석하기<svg class="icon"><use href="#i-arrow"/></svg></button></div>
+
+    </div>
+    <div class="hero-art notebook-art" aria-label="수채화로 그린 노트와 꽃">
+      <img class="watercolor-hero" src="./assets/watercolor-notebook.png" width="1536" height="1024" alt="연한 수채화로 그린 펼친 노트, 들꽃, 해와 달" fetchpriority="high">
+      <div class="notebook-letter"><span class="handwritten">아직 몰랐던 나의 이야기</span><p>나의 성향 · 인생의 계절<br>아이 이름에 담을 뜻</p></div>
+      <span class="handwritten art-caption">천천히 읽어도 괜찮아요.</span>
+    </div>
+  </section>
+
+  <section class="explore shell" id="explore">
+    <div class="section-heading"><div><p class="handwritten section-note">오늘 펼쳐보고 싶은 페이지</p><h2>어떤 이야기가 궁금한가요?</h2></div><div class="filters" role="group" aria-label="서비스 종류"><button class="filter active" data-filter="all" aria-pressed="true">모두</button><button class="filter" data-filter="baby" aria-pressed="false">아이 이름</button><button class="filter" data-filter="us" aria-pressed="false">나 · 우리</button></div></div>
+    <div class="service-grid">
+      <button class="service-card name-service" data-service="name" data-category="baby"><div class="card-top"><span class="tag">아이 이름</span><span class="handwritten card-note">첫 번째 선물</span></div><h3>첫 선물은,<br>좋은 이름.</h3><p>생년월일시와 이름을 함께 살피고,<br>뜻을 담은 한자 조합을 추천해드려요.</p><div class="name-labels" aria-hidden="true"><span>서아</span><span>도윤</span><span>하린</span></div><div class="card-bottom"><span>아이 이름 알아보기</span><span class="round-arrow"><svg class="icon"><use href="#i-arrow"/></svg></span></div></button>
+      <button class="service-card saju-service" data-service="saju" data-category="us"><div class="card-top"><span class="handwritten card-note">나의 작은 설명서</span></div><h3>나의 사주,<br>무슨 뜻일까?</h3><p>성향부터 일, 돈, 관계까지.<br>타고난 성향과 나이대별 흐름을 풀어드려요.</p><div class="card-bottom"><span>사주 분석 시작하기</span><span class="round-arrow"><svg class="icon"><use href="#i-arrow"/></svg></span></div></button>
+      <button class="service-card compatibility-service" data-service="compatibility" data-category="us"><div class="card-top"><svg class="icon"><use href="#i-heart"/></svg></div><h3>우리의 궁합,<br>차이를 읽다.</h3><p>연인도, 친구도, 우리 가족도.<br>두 사람의 사주를 비교해봐요.</p><div class="pair-doodle" aria-hidden="true"><span class="face face-left">• •<i></i></span><span class="face face-right">• •<i></i></span></div><div class="card-bottom"><span>우리 궁합 살펴보기</span><span class="round-arrow"><svg class="icon"><use href="#i-arrow"/></svg></span></div></button>
+      <button class="service-card stars-service" data-service="stars" data-category="us"><div class="card-top"><span class="star-symbol">✳</span></div><div><h3>태어난 날의 하늘은<br>어떤 이야기를 할까요?</h3><p>태양과 달의 별자리로<br>나를 바라보는 또 다른 방법.</p></div><div class="sky-doodle" aria-hidden="true"><span>☾</span><i>✧</i><b>✳</b></div><div class="card-bottom"><span>내 별자리 알아보기</span><span class="round-arrow"><svg class="icon"><use href="#i-arrow"/></svg></span></div></button>
+    </div>
+  </section>
+
+  <section class="sample shell"><span class="handwritten sample-margin" aria-hidden="true">이런 이야기를 읽어요 ↘</span><div class="sample-note"><h2>실제로는,<br>이렇게 풀어드려요.</h2><p>어떤 성향인지, 왜 그렇게 읽는지.<br>일·돈·사랑·사람 사이의 이야기를 풀어드려요.</p><button class="text-link" id="sample-trigger">아이 이름 상담 예시 보기<svg class="icon"><use href="#i-arrow"/></svg></button><button class="text-link saju-sample-link" id="saju-sample-trigger">사주 리포트 예시 보기<svg class="icon"><use href="#i-arrow"/></svg></button><button class="text-link saju-sample-link" id="stars-sample-trigger">별자리 해설 예시 보기<svg class="icon"><use href="#i-arrow"/></svg></button><button class="text-link saju-sample-link" id="compatibility-sample-trigger">두 가지 궁합 예시 비교<svg class="icon"><use href="#i-arrow"/></svg></button></div><div class="sample-paper"><div class="sample-paper-header"><span><span class="dot green"></span> 사주 분석</span><span class="example-badge">화면 예시</span></div><h3>좋아서 시작한 일에,<br>오래 마음을 주는 사람.</h3><p>스스로 납득한 이유가 있어야 힘이 붙는 쪽이에요.<br>마음에 정한 방향을 쉽게 버리지 않고,<br>그 생각을 말이나 결과물로 보여줄 때 매력이 드러나요.</p><div class="sample-chips"><span>사주 명식</span><span>점성술</span><span>이름 풀이</span></div><div class="sample-bottom"><svg class="icon"><use href="#i-book"/></svg><span>참고한 자료도 함께 볼 수 있어요</span><svg class="icon"><use href="#i-chevron"/></svg></div></div></section>
+
+  <section class="faq shell"><div class="faq-heading"><h2>시작 전에 궁금할 것들.</h2></div><div class="faq-list"><details><summary>태어난 시간을 몰라도 볼 수 있나요?<svg class="icon"><use href="#i-chevron"/></svg></summary><p>네. 아는 정보로 먼저 살펴볼 수 있어요. 시간이 필요한 부분은 알려드리고, 모르는 시간을 임의로 채우지 않아요.</p></details><details><summary>이름의 뜻이나 좋은 한자도 알 수 있나요?<svg class="icon"><use href="#i-chevron"/></svg></summary><p>한글 이름을 입력하면 글자별 한자 후보를 뜻과 함께 고를 수 있어요. 획수 풀이와 출생 신고에 사용할 수 있는지는 별도 확인이 필요해요.</p></details><details><summary>누가, 어떤 기준으로 풀어주나요?<svg class="icon"><use href="#i-chevron"/></svg></summary><p>별도 프로그램으로 계산한 정보와 정리된 자료를 바탕으로 AI가 풀이를 도와요. 참고한 자료와 계산 기준은 결과에서 펼쳐볼 수 있어요. 타고난 사주를 바탕으로 풀고, 시간과 대운 계산 기준을 선택하면 10년 흐름도 살펴봐요. 오늘의 운세나 사건의 결과를 예측하지는 않아요.</p></details></div></section>
+</main>
+
+<footer class="shell footer"><div><a class="brand" href="./"><img src="./assets/mark.svg" width="23" height="23" alt=""><span>moa.</span></a><p>사주·점성술·이름을 함께 읽다.</p></div><div class="footer-right"><button id="method-trigger">풀이의 기준</button><button id="privacy-trigger">내 정보 안내</button><span>© 2026 moa.</span><p>전통의 이야기를 참고하는 자기 성찰 콘텐츠예요.</p></div></footer>
+
+<dialog id="reading-dialog" class="reading-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><a class="brand dialog-brand" href="#"><img src="./assets/mark.svg" width="23" height="23" alt=""><span>moa.</span></a><span id="dialog-step">작은 이야기의 시작</span><button class="icon-button" id="close-dialog" aria-label="닫기"><svg class="icon"><use href="#i-close"/></svg></button></div><div id="dialog-body"></div></dialog>
+<dialog id="info-dialog" class="info-dialog" aria-labelledby="info-title"><div class="dialog-top"><span>모아</span><button class="icon-button" id="close-info" aria-label="닫기"><svg class="icon"><use href="#i-close"/></svg></button></div><div id="info-body"></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>window.MOA_API_BASE = "";</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "source": "https://www.data.go.kr/data/15084084/openapi.do",
+  "download": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000007696658&fileSn=1",
+  "worksheet": "기상청41_단기예보 조회서비스_오픈API활용가이드_격자_위경도(2607).xlsx",
+  "archive_sha256": "437f3b921d04d907afe3cb2c556077df2d063c6f8c5bf06783fd76ea4b7712f9",
+  "xlsx_sha256": "746b5e5be10430106abccc795a16c16d0f1fd0f081e8ab2765d0adc983a003c1",
+  "retrieved_at": "2026-10-09T10:24:11.683125+00:00",
+  "attribution": "기상청 · 공공데이터포털",
+  "license": "공공누리 제1유형 · 출처표시",
+  "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+  "places": 3824,
+  "regions": 16,
+  "scope": "읍면동·시군구 대표지점의 경도 사용. 정확한 출생 건물 좌표나 과거 행정구역 경계는 아님. 광주·전남의 옛 이름은 검색·표시 별칭. 기존 3개 도시 좌표 유지. 좌표 0인 이어도 제외."
+}
